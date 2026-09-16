@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import VideoLoader from './components/VideoLoader';
+import CustomCursor from './components/CustomCursor';
 import ButterflyGarden from './components/ButterflyGarden';
 import SoundEngine from './components/SoundEngine';
 import { ProjectHoverProvider } from './components/ProjectHoverStory';
@@ -55,6 +56,9 @@ export default function App() {
     <ProjectHoverProvider>
       {/* 2x Video Intro Opening Screen */}
       <VideoLoader />
+
+      {/* Pikachu / Interactive Character Follower Cursor */}
+      <CustomCursor />
 
       {/* Autonomous Butterfly Garden */}
       <ButterflyGarden />
