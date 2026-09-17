@@ -3,23 +3,22 @@ import React, { useState, useEffect } from 'react';
 const PHOTO_SLOTS = [
   {
     images: [
-      { src: '/images/maconskate.jpeg', alt: 'Working outdoors with a laptop and skateboard' },
-      { src: '/images/working-whatsapp.jpeg', alt: 'Working on a laptop' },
+      { src: '/images/aesthetics/aesthetic-1.png', alt: 'Aesthetic mood 1' },
+      { src: '/images/aesthetics/aesthetic-4.png', alt: 'Aesthetic mood 4' },
     ],
     position: 'center',
   },
   {
     images: [
-      { src: '/images/football.png', alt: 'Playing football' },
-      { src: '/images/skate1.jpeg', alt: 'Skateboarding' },
+      { src: '/images/aesthetics/aesthetic-2.png', alt: 'Aesthetic mood 2' },
+      { src: '/images/aesthetics/aesthetic-5.png', alt: 'Aesthetic mood 5' },
     ],
-    position: 'bottom',
+    position: 'center',
   },
   {
     images: [
-      { src: '/images/trek1.jpeg', alt: 'Trekking in the mountains' },
-      { src: '/images/beach.png', alt: 'At the beach' },
-      { src: '/images/coding-hotel.png', alt: 'Coding while travelling' },
+      { src: '/images/aesthetics/aesthetic-3.png', alt: 'Aesthetic mood 3' },
+      { src: '/images/aesthetics/aesthetic-6.png', alt: 'Aesthetic mood 6' },
     ],
     position: 'center',
   },
@@ -47,7 +46,7 @@ export default function PhotoGrid() {
       }, 750);
 
       return () => clearTimeout(timer);
-    }, 3500);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [indices]);
@@ -68,6 +67,7 @@ export default function PhotoGrid() {
               <img
                 src={prevImg.src}
                 alt={prevImg.alt}
+                loading="lazy"
                 style={{
                   objectPosition: slot.position,
                   opacity: isCrossfading ? 0 : 1,
@@ -78,6 +78,7 @@ export default function PhotoGrid() {
             <img
               src={currentImg.src}
               alt={currentImg.alt}
+              loading="lazy"
               style={{
                 objectPosition: slot.position,
                 opacity: isCrossfading ? 1 : 0,

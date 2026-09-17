@@ -6,6 +6,41 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
   const [showCursorMenu, setShowCursorMenu] = useState(false);
   const menuRef = useRef(null);
 
+  const toggleSound = () => {
+    const audio = document.getElementById('bg-lofi-audio');
+    if (!audio) return;
+
+    if (audio.paused) {
+      audio.volume = 0.35;
+      audio.play()
+        .then(() => {
+          setSoundEnabled(true);
+        })
+        .catch((err) => {
+          console.warn('Audio play error:', err);
+        });
+    } else {
+      audio.pause();
+      setSoundEnabled(false);
+    }
+  };
+
+  useEffect(() => {
+    const audio = document.getElementById('bg-lofi-audio');
+    if (!audio) return;
+
+    const onPlay = () => setSoundEnabled(true);
+    const onPause = () => setSoundEnabled(false);
+
+    audio.addEventListener('play', onPlay);
+    audio.addEventListener('pause', onPause);
+
+    return () => {
+      audio.removeEventListener('play', onPlay);
+      audio.removeEventListener('pause', onPause);
+    };
+  }, [setSoundEnabled]);
+
   useEffect(() => {
     const saved = localStorage.getItem('cursor-type');
     setCursorType(saved || 'pikachu');
@@ -43,12 +78,18 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
         return;
       }
 
-      if (e.key === 'h') {
+      if (e.key === 'h' || e.key === 'H') {
         onNavigate('/');
-      } else if (e.key === 'b') {
+      } else if (e.key === 'b' || e.key === 'B') {
         onNavigate('/blog');
-      } else if (e.key === 'p') {
+      } else if (e.key === 'p' || e.key === 'P') {
         onNavigate('/projects');
+      } else if (e.key === 'k' || e.key === 'K') {
+        onNavigate('/hobbies');
+      } else if (e.key === 'm' || e.key === 'M') {
+        toggleSound();
+      } else if (e.key === 'r' || e.key === 'R') {
+        window.open('/AshitoshJagtapResume.pdf', '_blank');
       }
     };
 
@@ -59,6 +100,7 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
   const isHome = currentPath === '/';
   const isBlog = currentPath.startsWith('/blog') || currentPath.startsWith('/blogs');
   const isProjects = currentPath.startsWith('/projects');
+  const isHobbies = currentPath.startsWith('/hobbies');
 
   return (
     <nav className="site-nav">
@@ -66,6 +108,7 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
         type="button"
         onClick={() => onNavigate('/')}
         className={`nav-link ${isHome ? 'active' : ''}`}
+        title="Shortcut: [h]"
       >
         <span style={{ color: '#a1a1aa', marginRight: '0.25rem' }}>[h]</span>
         home
@@ -73,20 +116,43 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
 
       <button
         type="button"
-        onClick={() => onNavigate('/blog')}
-        className={`nav-link ${isBlog ? 'active' : ''}`}
+        onClick={() => onNavigate('/projects')}
+        className={`nav-link ${isProjects ? 'active' : ''}`}
+        title="Shortcut: [p]"
       >
-        <span style={{ color: '#a1a1aa', marginRight: '0.25rem' }}>[b]</span>
-        blog
+        <span style={{ color: '#a1a1aa', marginRight: '0.25rem' }}>[p]</span>
+        projects
       </button>
 
       <button
         type="button"
-        onClick={() => onNavigate('/projects')}
-        className={`nav-link ${isProjects ? 'active' : ''}`}
+        onClick={() => onNavigate('/blog')}
+        className={`nav-link ${isBlog ? 'active' : ''}`}
+        title="Shortcut: [b]"
       >
-        <span style={{ color: '#a1a1aa', marginRight: '0.25rem' }}>[p]</span>
-        projects
+        <span style={{ color: '#a1a1aa', marginRight: '0.25rem' }}>[b]</span>
+        blog & memes
+      </button>
+
+      <button
+        type="button"
+        onClick={() => onNavigate('/hobbies')}
+        className={`nav-link ${isHobbies ? 'active' : ''}`}
+        title="Shortcut: [k]"
+      >
+        <span style={{ color: '#a1a1aa', marginRight: '0.25rem' }}>[k]</span>
+        hobbies
+      </button>
+
+      <button
+        type="button"
+        onClick={() => window.open('/AshitoshJagtapResume.pdf', '_blank')}
+        className="nav-link"
+        title="Shortcut: [r]"
+        style={{ color: '#ea580c' }}
+      >
+        <span style={{ color: '#fb923c', marginRight: '0.25rem' }}>[r]</span>
+        resume
       </button>
 
       {/* Right-aligned utility controls */}
@@ -97,8 +163,8 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
             type="button"
             onClick={() => setShowCursorMenu(!showCursorMenu)}
             className={`sound-toggle-btn ${cursorType !== 'none' ? 'sound-on' : ''}`}
-            title="Interactive Pikachu Cursor"
-            aria-label="Interactive Pikachu Cursor"
+            title="Interactive Character Cursor"
+            aria-label="Interactive Character Cursor"
             style={{ margin: 0 }}
           >
             <span style={{ fontSize: '11px' }}>⚡</span>
@@ -111,23 +177,23 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
             <div
               style={{
                 position: 'absolute',
-                top: '100%',
+                top: 'calc(100% + 8px)',
                 right: 0,
-                marginTop: '0.5rem',
-                width: '9.5rem',
-                backgroundColor: '#ffffff',
+                backgroundColor: 'rgba(255, 255, 255, 0.96)',
+                backdropFilter: 'blur(12px)',
+                borderRadius: '8px',
                 border: '1px solid #e4e4e7',
-                borderRadius: '0.5rem',
-                boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.08)',
-                padding: '0.35rem',
-                zIndex: 150,
+                boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1)',
+                padding: '6px',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '0.15rem',
+                gap: '2px',
+                zIndex: 200,
+                minWidth: '130px',
               }}
             >
-              <div style={{ fontSize: '10px', color: '#a1a1aa', padding: '0.25rem 0.5rem', fontFamily: 'var(--font-mono)' }}>
-                cursor follower
+              <div style={{ fontSize: '10px', fontFamily: 'var(--font-mono)', color: '#a1a1aa', padding: '4px 8px', borderBottom: '1px solid #f4f4f5', marginBottom: '2px' }}>
+                SELECT CURSOR
               </div>
               {CURSOR_OPTIONS.map((c) => (
                 <button
@@ -142,11 +208,11 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
                   style={{
                     display: 'flex',
                     alignItems: 'center',
-                    gap: '0.5rem',
-                    padding: '0.35rem 0.5rem',
-                    borderRadius: '0.375rem',
-                    fontSize: '0.75rem',
-                    color: cursorType === c.id ? '#09090b' : '#52525b',
+                    gap: '8px',
+                    padding: '6px 8px',
+                    borderRadius: '6px',
+                    fontSize: '12px',
+                    color: cursorType === c.id ? '#09090b' : '#71717a',
                     backgroundColor: cursorType === c.id ? '#f4f4f5' : 'transparent',
                     fontWeight: cursorType === c.id ? 600 : 400,
                     cursor: 'pointer',
@@ -174,32 +240,26 @@ export default function Navbar({ currentPath, onNavigate, soundEnabled, setSound
           )}
         </div>
 
-        {/* Subtle Sound Toggle */}
+        {/* Rock-Solid Lofi Audio Toggle: Ninja Hattori Melody */}
         <button
           type="button"
-          onClick={() => setSoundEnabled(!soundEnabled)}
+          onClick={toggleSound}
           className={`sound-toggle-btn ${soundEnabled ? 'sound-on' : ''}`}
-          title={soundEnabled ? "Mute scroll sounds" : "Unmute scroll sounds"}
-          aria-label={soundEnabled ? "Mute scroll sounds" : "Unmute scroll sounds"}
-          style={{ margin: 0 }}
+          title={soundEnabled ? "Mute lofi music [m]" : "Play lofi music [m]"}
+          aria-label={soundEnabled ? "Mute lofi music" : "Play lofi music"}
+          style={{ margin: 0, display: 'flex', alignItems: 'center', gap: '5px' }}
         >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            {soundEnabled ? (
-              <>
-                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-              </>
-            ) : (
-              <>
-                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                <line x1="23" y1="9" x2="17" y2="15"></line>
-                <line x1="17" y1="9" x2="23" y2="15"></line>
-              </>
-            )}
-          </svg>
+          {soundEnabled ? (
+            <span style={{ display: 'inline-flex', alignItems: 'flex-end', gap: '1.5px', height: '12px' }}>
+              <span className="visualizer-bar" style={{ width: '2px', height: '10px', backgroundColor: '#059669', borderRadius: '1px' }} />
+              <span className="visualizer-bar" style={{ width: '2px', height: '6px', backgroundColor: '#059669', borderRadius: '1px', animationDelay: '0.2s' }} />
+              <span className="visualizer-bar" style={{ width: '2px', height: '12px', backgroundColor: '#059669', borderRadius: '1px', animationDelay: '0.4s' }} />
+            </span>
+          ) : (
+            <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#a1a1aa' }} />
+          )}
           <span style={{ fontSize: '11px', fontFamily: 'var(--font-mono)' }}>
-            {soundEnabled ? 'snd on' : 'snd off'}
+            {soundEnabled ? 'lofi on' : 'lofi off'}
           </span>
         </button>
       </div>

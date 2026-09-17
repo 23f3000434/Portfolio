@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const ROLES = [
-  ['full', 'stack', 'dev,', 'ml', 'engineer,', 'cybersecurity', 'builder', ':)'],
-  ['bs', 'data', 'science', '@', 'iit', 'madras,', 'audio', 'ml', 'hacker', ':)'],
-  ['real-time', 'systems,', 'adversarial', 'defense,', '&', 'clean', 'code', ':)'],
+  ['frontend', 'engineer,', 'product', 'designer,', 'full', 'stack', 'builder', ':)'],
+  ['bs', 'data', 'science', '@', 'iit', 'madras,', 'ui/ux', 'crafter', ':)'],
+  ['real-time', 'systems,', 'swimmer,', 'flute', 'player,', '&', 'clean', 'code', ':)'],
 ];
 
 export default function HoverRoles() {
@@ -82,7 +82,7 @@ export default function HoverRoles() {
         </span>
       )}
       <span className="sr-only">
-        : full stack dev, ml engineer, cybersecurity builder :) or bs data science @ iit madras, audio ml hacker :)
+        : frontend engineer, product designer, full stack builder :) or bs data science @ iit madras, ui/ux crafter :)
       </span>
     </span>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import TiltedProjectScreen from '../components/TiltedProjectScreen';
 import { siteData } from '../data/siteData';
 
 export default function ProjectDetailPage({ slug, onNavigate }) {
@@ -24,15 +25,15 @@ export default function ProjectDetailPage({ slug, onNavigate }) {
   const nextProj = currentIndex < siteData.projects.length - 1 ? siteData.projects[currentIndex + 1] : null;
 
   const getBadgeClass = (badge) => {
-    switch (badge) {
+    switch (badge?.toLowerCase()) {
+      case 'live in prod':
+        return 'badge-done';
+      case 'award winner':
+        return 'badge-done';
+      case 'client prod':
+        return 'badge-done';
       case 'done':
         return 'badge-done';
-      case 'acquihired':
-        return 'badge-acquihired';
-      case 'discontinued':
-        return 'badge-discontinued';
-      case 'under construction':
-        return 'badge-under-construction';
       default:
         return 'badge-done';
     }
@@ -86,9 +87,23 @@ export default function ProjectDetailPage({ slug, onNavigate }) {
         </time>
       )}
 
-      <p style={{ fontSize: '1rem', color: '#3f3f46', lineHeight: 1.6, marginBottom: '2rem' }}>
+      <p style={{ fontSize: '1rem', color: '#3f3f46', lineHeight: 1.6, marginBottom: '1.5rem' }}>
         {project.description}
       </p>
+
+      {/* Interactive 3D Tilted Screen Preview */}
+      {project.previewImage && (
+        <div style={{ marginBottom: '2rem' }}>
+          <TiltedProjectScreen
+            imageSrc={project.previewImage}
+            alt={`${project.title} live interface preview`}
+            title={project.title}
+            url={project.slug === 'safewaves' ? 'safewaves.vercel.app' : `${project.slug}.ashitosh.dev`}
+            badge={project.badge}
+            initialTilt={{ x: 5, y: -7 }}
+          />
+        </div>
+      )}
 
       {/* Meta DL */}
       {project.meta && project.meta.length > 0 && (

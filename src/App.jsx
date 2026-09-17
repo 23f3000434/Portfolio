@@ -3,13 +3,13 @@ import Navbar from './components/Navbar';
 import VideoLoader from './components/VideoLoader';
 import CustomCursor from './components/CustomCursor';
 import ButterflyGarden from './components/ButterflyGarden';
-import SoundEngine from './components/SoundEngine';
 import { ProjectHoverProvider } from './components/ProjectHoverStory';
 import HomePage from './pages/HomePage';
 import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
+import HobbiesPage from './pages/HobbiesPage';
 
 export default function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname || '/');
@@ -21,6 +21,42 @@ export default function App() {
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Autoplay background lofi music by default
+  useEffect(() => {
+    const audio = document.getElementById('bg-lofi-audio');
+    if (!audio) return;
+    audio.volume = 0.35;
+
+    const startAudio = () => {
+      audio.play()
+        .then(() => {
+          setSoundEnabled(true);
+        })
+        .catch(() => {
+          // If browser policy delays unprompted autoplay, start seamlessly on first user interaction
+          const resumeOnGesture = () => {
+            audio.play().then(() => setSoundEnabled(true)).catch(() => {});
+            window.removeEventListener('click', resumeOnGesture);
+            window.removeEventListener('keydown', resumeOnGesture);
+            window.removeEventListener('touchstart', resumeOnGesture);
+          };
+          window.addEventListener('click', resumeOnGesture, { once: true });
+          window.addEventListener('keydown', resumeOnGesture, { once: true });
+          window.addEventListener('touchstart', resumeOnGesture, { once: true });
+        });
+    };
+
+    startAudio();
+
+    const handleSiteReady = () => {
+      if (audio.paused) {
+        startAudio();
+      }
+    };
+    window.addEventListener('site-ready', handleSiteReady);
+    return () => window.removeEventListener('site-ready', handleSiteReady);
   }, []);
 
   const navigate = (path) => {
@@ -49,6 +85,9 @@ export default function App() {
       const slug = currentPath.replace('/projects/', '').replace(/\/$/, '');
       return <ProjectDetailPage slug={slug} onNavigate={navigate} />;
     }
+    if (currentPath === '/hobbies' || currentPath === '/hobbies/') {
+      return <HobbiesPage onNavigate={navigate} />;
+    }
     return <HomePage onNavigate={navigate} />;
   };
 
@@ -60,11 +99,16 @@ export default function App() {
       {/* Pikachu / Interactive Character Follower Cursor */}
       <CustomCursor />
 
-      {/* Autonomous Butterfly Garden */}
+      {/* Autonomous Butterfly Garden with Smooth Travelling Animation */}
       <ButterflyGarden />
 
-      {/* Tactile scroll sound synthesis */}
-      <SoundEngine enabled={soundEnabled} />
+      {/* Persistent Background Lofi Audio Player (Ninja Hattori Soothing Melody) */}
+      <audio
+        id="bg-lofi-audio"
+        src="/audio/ninja-hattori-lofi.mp3"
+        loop
+        preload="auto"
+      />
 
       {/* Main Page Layout */}
       <div className="site-canvas">

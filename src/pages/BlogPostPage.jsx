@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import { siteData } from '../data/siteData';
 
 export default function BlogPostPage({ slug, onNavigate }) {
@@ -126,6 +127,8 @@ export default function BlogPostPage({ slug, onNavigate }) {
           </button>
         )}
       </nav>
+
+      <Footer onNavigate={onNavigate} />
     </main>
   );
 }

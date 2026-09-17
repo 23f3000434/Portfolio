@@ -2,9 +2,9 @@ export const siteData = {
   "author": {
     "name": "Ashitosh Jagtap",
     "age": "BS Data Science @ IIT Madras",
-    "bio": "i like building systems where machine learning meets resilient real-time architecture. obsessed with making ai explainable, adversarial-resistant, and actually reliable in production \u2014 not just superficial wrappers.",
-    "aside": "when i'm not training models or debugging websockets, i'm probably breaking down research papers or benchmarking sandbox escapes.",
-    "activity": "national finalist @ hcl guvi ai buildathon \u00b7 3 freelance client deployments \u00b7 open source contributor",
+    "bio": "i build high-performance frontend interfaces and resilient real-time web architectures. obsessed with tactile micro-interactions, responsive typography, and shipping software that feels effortless to use.",
+    "aside": "when i'm not shipping code or profiling re-renders, you'll usually find me swimming laps in the pool, sketching portraits, playing the bansuri (flute), or reading.",
+    "activity": "rank #11 @ hackerhouse goa hackathon (50,000+ registrations) · national top 20 @ ai impact summit (40k builders) · top 30 @ indianext · ai & product tutor",
     "ps": "p.s. my favourite loss function is whatever converges before 4 am",
     "socials": [
       {
@@ -28,150 +28,219 @@ export const siteData = {
     ]
   },
   "hoverStories": {
-    "safewaves": {
-      "title": "SafeWaves",
-      "duration": "2025 \u2014 now",
-      "paragraphs": [
-        "architected an ai-powered multi-threat cyber defense platform detecting phishing, malicious URLs, deepfakes, prompt injection, behavioral anomalies, and AI content across 6 distinct categories.",
-        "implemented an explainable ML pipeline with risk scoring, SHAP-based feature attribution, natural-language threat explanations, and automated remediation.",
-        "evaluated against 500+ obfuscated adversarial input variations, reducing false positive rate by 15% through iterative PyTorch tuning."
-      ]
-    },
-    "codebattle": {
-      "title": "CodeBattle",
-      "duration": "2025 \u2014 2026",
-      "paragraphs": [
-        "built a full-stack competitive coding platform where developers battle head-to-head solving algorithmic challenges in real-time over WebSocket.",
-        "implemented matchmaking engine with dynamic ELO rating system (dynamic K-factor), matching players within 200 rating points in under 2 seconds.",
-        "sandboxed server-side JavaScript code execution using VM2 with 5-second timeout protection and hidden/visible test suites."
-      ]
-    },
-    "voxguard": {
-      "title": "VoxGuard (AI Voice Forensics)",
+    "hhgoa": {
+      "title": "HackerHouse Goa Hackathon (National Rank #11)",
       "duration": "2026",
       "paragraphs": [
-        "national finalist (top 20 of 40,000 participants) at the HCL GUVI AI Impact Buildathon.",
-        "engineered an end-to-end ML pipeline for AI-generated voice detection achieving 94%+ classification accuracy across 5 languages.",
-        "extracted acoustic spectrograms and MFCC features using librosa, feeding into a custom PyTorch CNN architecture for sub-300ms inference."
+        "qualified in the prestigious HackerHouse Goa Hackathon, securing Rank #11 among 50,000+ national registrations and competitive builders.",
+        "collaborated on rapid prototype development under intensive 36-hour sprint constraints, shipping production-ready code with responsive UI and live telemetry."
       ]
     },
-    "freelance": {
-      "title": "Freelance Client Work",
-      "duration": "Oct 2025 \u2014 now",
+    "aiimpact": {
+      "title": "AI Impact Summit Hackathon (National Top 20)",
+      "duration": "2026",
       "paragraphs": [
-        "delivered 3 end-to-end client applications handling requirements gathering, system architecture, development, testing, and containerized Docker deployment.",
-        "engineered real-time systems with Socket.io achieving sub-200ms latency for live matchmaking and streaming threat analytics.",
-        "designed RESTful APIs with JWT auth, bcrypt hashing, rate limiting, and RBAC across MongoDB, Redis, PostgreSQL, and SQLite backends."
+        "national finalist placing in the Top 20 out of 40,000+ registered participants at the HCL GUVI AI Impact Buildathon & Summit.",
+        "architected a high-throughput voice forensics pipeline and reactive live dashboard evaluated and commended by senior industry judges."
+      ]
+    },
+    "safewaves": {
+      "title": "SafeWaves (IndiaNext 2026 Finalist)",
+      "duration": "2025 — now",
+      "paragraphs": [
+        "top 30 finalist (out of 300+ teams) at the IndiaNext Hackathon 2026 (K.E.S. Shroff College, Mumbai) & live production platform at safewaves.vercel.app.",
+        "architected an intelligent real-time threat monitoring and URL verification platform detecting malicious links, suspicious domains, and deceptive payloads.",
+        "implemented a reactive telemetry dashboard with Server-Sent Events (SSE), instant risk scoring, and automated remediation playbooks."
+      ]
+    },
+    "tutor": {
+      "title": "Freelance Tutor & Product Mentor",
+      "duration": "2025 — now",
+      "paragraphs": [
+        "delivered specialized lectures and hands-on workshops in software architecture, frontend engineering, and product development for Grade 11–12 students.",
+        "mentored aspiring young developers on algorithmic problem solving, modern React architectures, and shipping clean software."
       ]
     },
     "iitmadras": {
       "title": "IIT Madras",
-      "duration": "2023 \u2014 2027",
+      "duration": "2023 — 2027",
       "paragraphs": [
         "pursuing Bachelor of Science (BS) in Data Science and Applications at the Indian Institute of Technology Madras.",
-        "coursework covering Deep Learning, Machine Learning, Reinforcement Learning, Data Structures & Algorithms, and Database Systems.",
-        "grounding real-world engineering projects in statistical learning theory and algorithmic efficiency."
+        "coursework covering Algorithms, Data Structures, Modern Software Systems, Discrete Mathematics, and Database Systems.",
+        "grounding real-world frontend and full-stack engineering in algorithmic efficiency and robust systems design."
       ]
     },
-    "cybersentinel": {
-      "title": "CyberSentinel",
-      "duration": "Mar 2026",
+    "sketching": {
+      "title": "Pencil Sketching & Visual Art",
+      "duration": "always",
       "paragraphs": [
-        "top 30 finalist out of 300+ teams at the IndiaNext Hackathon 2026 (K.E.S. Shroff College, Mumbai).",
-        "developed an AI-powered cybersecurity platform integrating 6 threat detection modules with explainable AI and real-time risk scoring.",
-        "provided automated incident response playbooks and actionable remediation steps for detected breaches."
+        "pencil sketching is where manual discipline meets creative flow. working with graphite trains the eye for line weight, negative space, and tonal contrast.",
+        "the same obsessive attention to visual balance carries directly over into crafting clean, harmonious digital interfaces."
+      ]
+    },
+    "prism": {
+      "title": "Prism Component Playground",
+      "duration": "2026",
+      "paragraphs": [
+        "engineered an interactive glass workspace for building, measuring, and stress-testing financial React components live at prism-playground-alpha.vercel.app.",
+        "built real-time optics visualizers, hot state inspectors, and high-performance component canvas with zero unnecessary re-renders."
+      ]
+    },
+    "cakeshop": {
+      "title": "Butterlane Cake Shop Management",
+      "duration": "2025 — 2026",
+      "paragraphs": [
+        "architected an artisan bakery management suite deployed live at cake-shop-management-five.vercel.app/#dashboard.",
+        "orchestrated custom pastry orders, automated inventory ingredient tracking, real-time POS bill generation, and customer profile ledgers."
+      ]
+    },
+    "interntrack": {
+      "title": "InternTrack (GHRCEM Placement Portal)",
+      "duration": "2026",
+      "paragraphs": [
+        "engineered a 4-dimensional centralized placement platform live at internship-placement-portal-steel.vercel.app.",
+        "integrated cryptographic SHA-256 tamper-evident verification, public QR code verifiers, automated PPO workflows, and institutional analytics."
+      ]
+    },
+    "reading": {
+      "title": "Literature & Philosophy",
+      "duration": "always",
+      "paragraphs": [
+        "avid reader of psychological fiction, Stoic principles, and deductive mysteries — Dostoevsky, Marcus Aurelius, Chetan Bhagat, Adlerian psychology, and Sherlock Holmes.",
+        "fascinated by how books dismantle cognitive biases and reveal the hidden architecture of human motives."
+      ]
+    },
+    "flute": {
+      "title": "Bansuri & Classical Flute",
+      "duration": "always",
+      "paragraphs": [
+        "passionate flute player exploring Indian classical ragas and relaxing melodic improvisations.",
+        "music is the ultimate creative reset — grounding the mind between intense programming sessions."
       ]
     }
   },
-  "blogs": [
-    {
-      "slug": "modern-ai-development-beyond-the-hype",
-      "title": "Beyond Prompt Wrappers: Engineering Real-World AI Systems",
-      "date": "17 September 2026",
-      "dateIso": "2026-09-17",
-      "summary": "We've reached the ceiling of naive prompt engineering. Here is what it actually takes to engineer deterministic, adversarial-resistant, and low-latency AI systems in production.",
-      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><p class=\"mb-8 text-xs text-zinc-500\">technical field note <!-- -->\u00b7 by<!-- --> <a class=\"text-zinc-600 transition-colors hover:text-zinc-950\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> <!-- -->\u00b7 updated<!-- --> <time datetime=\"2026-09-17\">17 September 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-snug animate-blur\">Over the past two years, our industry convinced millions of developers that building an AI product was simply a matter of writing an Express route, calling an LLM endpoint, and printing the stream to a React component.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">It was fun while it lasted. But that phase of AI development is officially dead.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">When you move from flashy Twitter demos to building mission-critical platforms\u2014whether it's multi-threat cyber defense platforms detecting zero-day prompt injections, real-time competitive programming sandboxes, or multilingual audio classifiers separating synthetic speech from human voices\u2014the cracks in naive prompt engineering show up immediately.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Here is what building real-world AI systems actually looks like when you peel away the marketing hype.</p>\n\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">1. The Illusion of the 5-Minute Demo</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">In a prototype, everything looks like magic. You give the model a friendly paragraph, paste in an input, and 85% of the time you get something plausible back. People raise pre-seed rounds on that remaining 15% margin of error, assuming better foundation models will magically solve it.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">In production, that 15% is where software goes to die. If an AI cybersecurity scanner generates a 15% false positive rate, security analysts turn it off within four hours. If a code sandbox experiences a single breakout because the model hallucinated safe execution bounds, your entire host infrastructure is compromised.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Real AI development begins precisely where the prompt ends: in constraints, deterministic state machines, and layered verification systems.</p>\n\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">2. Explainability is Not Optional (Why SHAP Matters)</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">One of the deepest problems with modern generative AI is the black-box syndrome. A model outputs: <code class=\"border border-border px-2 py-1 rounded text-sm font-mono text-text-primary\">{\"threat_detected\": true, \"risk_score\": 0.94}</code>.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Great. Now tell a SOC analyst why.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Was it an obfuscated unicode sequence? Was it semantic similarity to a known phishing domain? Was it an anomalous syntactic structure in an instruction header?</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">When building <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/safewaves\">SafeWaves</a>, we realized that an unexplainable risk score is practically useless. We implemented an explainable ML pipeline combining feature attribution algorithms with SHAP (SHapley Additive exPlanations). Instead of asking human operators to blindly trust a probability scalar, the system highlights the exact token vectors, header anomalies, and behavioral weights driving the classification.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">If your AI system makes decisions with real consequences, explainability is not an afterthought or a nice badge\u2014it is the product itself.</p>\n\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">3. The Adversarial Battleground: When Inputs Fight Back</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Most software is designed assuming the user might make a mistake. AI software must be designed assuming the user is an active adversary trying to subvert the model.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Consider audio forensics and AI voice clone detection. When we engineered the multi-language voice detection pipeline for the HCL GUVI AI Impact Buildathon (achieving 94%+ classification across 5 languages), the models couldn't just evaluate textbook clean WAV files. In the wild, bad actors introduce background noise, pitch shifts, lossy MP3 compression, and spectral dithering specifically to fool convolutional layers.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">We had to extract high-resolution mel-spectrograms and MFCCs (Mel-frequency cepstral coefficients) with librosa and train custom CNN architectures that specifically look for phase artifacts and vocoder discontinuity bands that human ears miss.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The same principle applies to prompt injection. If your security system relies on telling Claude or GPT \"please ignore any prompt injection instructions in the user message,\" an attacker will bypass it in under three minutes with recursive base64 encodings or roleplay shifts. You need token-level isolation, deterministic AST parsing, and layered multi-tier classifiers.</p>\n\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">4. The Latency Equation: Why Real-Time Changes Everything</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Nobody wants to stare at a loading spinner for 8 seconds while an LLM ruminates over a 4,000-token prompt. In real-time environments, latency is user experience.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">When building <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/codebattle\">CodeBattle</a>, developers are competing head-to-head in split-second algorithmic matches. A lag of 300ms ruins the entire competitive dynamic. We engineered WebSocket synchronization via Socket.io with sub-200ms round trips, sandboxing arbitrary JavaScript execution with VM2 and strict 5-second timeouts.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">In AI platforms, the solution is streaming architectures: Server-Sent Events (SSE) for low-overhead telemetry, edge classifiers for fast rejection (sub-50ms) before invoking heavy PyTorch models, and optimistic UI updates that keep the interface silky smooth.</p>\n\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">5. Modern AI is 80% Systems Engineering</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The secret nobody talks about on tech influencer podcasts is this: once you have trained or fine-tuned your model, the vast majority of your engineering effort is classic, unglamorous systems engineering:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">Sandboxing and containerization</strong>: Dockerizing inference runtimes with isolated memory limits to prevent runaway GPU allocations.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Deterministic fallback guards</strong>: When a model fails schema validation, what happens? You need rule-based fallback engines, not another fuzzy prompt.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Efficient data structures</strong>: Caching embeddings in Redis, indexing vectors efficiently, and minimizing payload sizes over the wire.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Adversarial evaluation suites</strong>: Automated CI/CD pipelines testing models against hundreds of malicious perturbations before deployment.</li>\n</ul>\n\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Where We Go From Here</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The gold rush of shallow wrappers is winding down. What comes next is vastly more interesting: specialized ML pipelines, hybrid neuro-symbolic systems, real-time edge intelligence, and models integrated seamlessly into robust distributed backends.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The developers who will build the enduring software of this era aren't the ones writing the most prompts. They are the ones who understand data structures, low-level networking, statistical learning theory, and clean system design.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Stay curious, ground your models in reality, and never stop building. <span style=\"font-family: var(--font-mono)\">:)</span></p></div><div class=\"mt-16 border-t border-zinc-200 pt-8\"><h3 class=\"mb-1 text-sm text-zinc-700\">disagree?</h3><p class=\"mb-4 text-xs text-zinc-500\">write what you wanna fight about and i'll read it.</p><textarea class=\"w-full resize-none rounded-sm border border-zinc-300 bg-transparent px-3 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 transition-colors focus:border-zinc-500 focus:outline-none\" placeholder=\"you're wrong about...\" rows=\"3\"></textarea><button class=\"mt-3 cursor-pointer rounded-sm border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-500 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-zinc-300 disabled:hover:text-zinc-700\" disabled=\"\">fight me \u2192</button></div></article>"
-    },
-    {
-      "slug": "simplicity-the-saviour",
-      "title": "Simplicity the Saviour",
-      "date": "14 June 2026",
-      "dateIso": "2026-06-14",
-      "summary": "How we made an AI Agent faster and more capable by making it smaller",
-      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://ashitosh.dev/blog/simplicity-the-saviour#webpage\",\"url\":\"https://ashitosh.dev/blog/simplicity-the-saviour\",\"name\":\"Simplicity the Saviour\",\"description\":\"How we made an AI Agent faster and more capable by making it smaller\",\"isPartOf\":{\"@id\":\"https://ashitosh.dev/#website\"},\"breadcrumb\":{\"@id\":\"https://ashitosh.dev/blog/simplicity-the-saviour#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://ashitosh.dev/blog/simplicity-the-saviour#article\"}},{\"@type\":\"BlogPosting\",\"@id\":\"https://ashitosh.dev/blog/simplicity-the-saviour#article\",\"headline\":\"Simplicity the Saviour\",\"description\":\"How we made an AI Agent faster and more capable by making it smaller\",\"datePublished\":\"2026-06-14\",\"dateModified\":\"2026-07-17\",\"articleSection\":\"technical field note\",\"mainEntityOfPage\":{\"@id\":\"https://ashitosh.dev/blog/simplicity-the-saviour#webpage\"},\"url\":\"https://ashitosh.dev/blog/simplicity-the-saviour\",\"image\":\"https://ashitosh.dev/opengraph-image\",\"inLanguage\":\"en\",\"author\":{\"@id\":\"https://ashitosh.dev/#person\"},\"publisher\":{\"@id\":\"https://ashitosh.dev/#person\"},\"citation\":[\"https://www.anthropic.com/news/context-management\",\"https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\"]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ashitosh.dev/blog/simplicity-the-saviour#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ashitosh.dev/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://ashitosh.dev/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Simplicity the Saviour\",\"item\":\"https://ashitosh.dev/blog/simplicity-the-saviour\"}]}]}</script><p class=\"mb-8 text-xs text-zinc-500\">technical field note<!-- --> \u00b7 by<!-- --> <a class=\"text-zinc-600 transition-colors hover:text-zinc-950\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> <!-- -->\u00b7 updated<!-- --> <time datetime=\"2026-07-17\">17 July 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-snug animate-blur\">Here's how we made an AI Agent faster and more capable by making it smaller.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Simplicity is not the opposite of power. In complex AI products, simplicity is often what makes power usable. Over the last several months, our codebase went through repeated simplification waves:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\">tool surfaces were narrowed</li>\n<li class=\"leading-7\">runtime architecture was split by ownership</li>\n<li class=\"leading-7\">browser automation became primitive first</li>\n<li class=\"leading-7\">context was cut into on-demand surfaces</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">The main ideology behind this shift was to give the agent fewer things to guess.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The strongest version of simplicity is not \"do less.\" It is \"make the system legible enough that you can safely do more.\"</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">That became obvious while building an AI desktop agent. The product itself is ambitious: it needs to understand a user's context, operate across apps, use tools, browse the web, remember useful facts, ask for permission before sensitive actions, and keep working over long tasks. The natural failure mode for a product like that is not a missing feature. It is too many half-clear boundaries stacked on top of each other.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Tool Simplification: Stop Giving The Model Everything</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">AI agents fail differently from normal software. If you give a normal program more functions, nothing happens until you call them. If you give a model too many tools, every turn becomes a search problem inside the model's head.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Earlier versions of the system exposed broad tool surfaces too eagerly. That made the agent more \"capable\" on paper, but also more expensive to prompt, harder to debug, and easier to derail. A model could see local tools, web tools, app integrations, browser tools, media tools, memory tools, task UI tools, and more.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The simplification was to make tool access progressive:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\">Keep a small core set available by default.</li>\n<li class=\"leading-7\">Register heavier capability groups as discoverable rather than active.</li>\n<li class=\"leading-7\">Let the model search for tools when the task actually needs them.</li>\n<li class=\"leading-7\">Reveal exact tools dynamically instead of front-loading every schema.</li>\n<li class=\"leading-7\">Keep permission metadata and approval categories attached to tool definitions.</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">This is the difference between a toolbox and a warehouse.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The model should not need to walk through the warehouse on every turn. It should start with the tools that match ordinary work, then ask for the aisle it needs.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Context Simplification: Smaller First, Deeper On Demand</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The same pattern showed up in context.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Large context windows make it easy to get lazy. If a model supports a lot of tokens, the obvious move is to stuff in memory, tools, history, app state, browser state, and instructions upfront. The problem is that a bigger prompt is not automatically a better prompt. It can be slower, noisier, more expensive, and harder for smaller or cheaper models to use reliably.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">An easy way to evaluate your architecture is to test it with the weakest model you can reasonably use. If the system stays legible there, stronger models usually have a much easier time with it too.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Browser Simplification: Primitives Before Scripts</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Browser automation is where abstraction debt shows up immediately.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">One version of browser control gave the model a powerful script-like interface. Stronger models can sometimes use that well, but smaller models often drift: they write invalid JavaScript, assume page globals exist, open duplicate tabs, forget async steps, or stop after describing the next action instead of doing it.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The browser simplification was to stop asking the model to invent browser programs for normal browser work.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The simpler interface became primitive-first:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\">navigate</li>\n<li class=\"leading-7\">snapshot</li>\n<li class=\"leading-7\">click</li>\n<li class=\"leading-7\">type</li>\n<li class=\"leading-7\">scroll</li>\n<li class=\"leading-7\">press a key</li>\n<li class=\"leading-7\">select an option</li>\n<li class=\"leading-7\">use a bounded escape hatch only when primitives cannot handle the page</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">Every normal action returns a fresh page state. Element references come from snapshots. Screenshots are opt-in. Text and element counts are capped. Tabs are summarized compactly. The system tracks the preferred tab for a run so the model does not accidentally act on the wrong browser state.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Real Standard In Tech</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">A lot of solid engineering systems converge on some version of this. They may describe it differently, but the pattern is familiar:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\">Small, owned services instead of ambiguous mega-services.</li>\n<li class=\"leading-7\">Narrow interfaces instead of omnipotent APIs.</li>\n<li class=\"leading-7\">Progressive disclosure instead of dumping every option upfront.</li>\n<li class=\"leading-7\">Explicit contracts instead of string parsing and convention.</li>\n<li class=\"leading-7\">Observability around transitions, not just final states.</li>\n<li class=\"leading-7\">Deleting dead paths instead of preserving them as \"just in case\" compatibility.</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">In AI systems, this matters even more because the model is part of the runtime. Every extra tool, stale instruction, duplicated memory path, or unclear owner becomes something the model can trip over.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">That is also why I keep coming back to explicit tools and permission boundaries in projects like <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/furnace\">furnace</a>, and to observable transitions in <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/flowlens\">flowlens</a>. The implementation changes, but the principle stays the same: fewer guesses, clearer state.</p></div><div class=\"mt-16 border-t border-zinc-200 pt-8\"><h3 class=\"mb-1 text-sm text-zinc-700\">disagree?</h3><p class=\"mb-4 text-xs text-zinc-500\">write what you wanna fight about and i'll read it.</p><textarea class=\"w-full resize-none rounded-sm border border-zinc-300 bg-transparent px-3 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 transition-colors focus:border-zinc-500 focus:outline-none\" placeholder=\"you're wrong about...\" rows=\"3\"></textarea><button class=\"mt-3 cursor-pointer rounded-sm border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-500 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-zinc-300 disabled:hover:text-zinc-700\" disabled=\"\">fight me \u2192</button></div></article>"
-    },
-    {
-      "slug": "background-agents-the-new-meta",
-      "title": "background agents, the new meta",
-      "date": "15 April 2026",
-      "dateIso": "2026-04-15",
-      "summary": "Everyone's shipping background agents. Your timeline is flooded. Here's what's actually happening.",
-      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://ashitosh.dev/blog/background-agents-the-new-meta#webpage\",\"url\":\"https://ashitosh.dev/blog/background-agents-the-new-meta\",\"name\":\"background agents, the new meta\",\"description\":\"Everyone's shipping background agents. Your timeline is flooded. Here's what's actually happening.\",\"isPartOf\":{\"@id\":\"https://ashitosh.dev/#website\"},\"breadcrumb\":{\"@id\":\"https://ashitosh.dev/blog/background-agents-the-new-meta#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://ashitosh.dev/blog/background-agents-the-new-meta#article\"}},{\"@type\":\"BlogPosting\",\"@id\":\"https://ashitosh.dev/blog/background-agents-the-new-meta#article\",\"headline\":\"background agents, the new meta\",\"description\":\"Everyone's shipping background agents. Your timeline is flooded. Here's what's actually happening.\",\"datePublished\":\"2026-04-15\",\"dateModified\":\"2026-07-17\",\"articleSection\":\"industry commentary\",\"mainEntityOfPage\":{\"@id\":\"https://ashitosh.dev/blog/background-agents-the-new-meta#webpage\"},\"url\":\"https://ashitosh.dev/blog/background-agents-the-new-meta\",\"image\":\"https://ashitosh.dev/opengraph-image\",\"inLanguage\":\"en\",\"author\":{\"@id\":\"https://ashitosh.dev/#person\"},\"publisher\":{\"@id\":\"https://ashitosh.dev/#person\"},\"citation\":[\"https://www.anthropic.com/engineering/managed-agents\",\"https://cursor.com/docs/agent/agents-window\",\"https://cursor.com/docs/configuration/worktrees\",\"https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/\",\"https://docs.devin.ai/work-with-devin/interactive-planning\",\"https://engineering.ramp.com/post/why-we-built-our-background-agent\",\"https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem\"]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ashitosh.dev/blog/background-agents-the-new-meta#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ashitosh.dev/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://ashitosh.dev/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"background agents, the new meta\",\"item\":\"https://ashitosh.dev/blog/background-agents-the-new-meta\"}]}]}</script><p class=\"mb-8 text-xs text-zinc-500\">industry commentary<!-- --> \u00b7 by<!-- --> <a class=\"text-zinc-600 transition-colors hover:text-zinc-950\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> <!-- -->\u00b7 updated<!-- --> <time datetime=\"2026-07-17\">17 July 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-snug animate-blur\">Open Twitter dot com, sorry, X dot com, and every other post is someone shipping a background agent, demoing a background agent, or writing a thread about how background agents will replace your job. The new meta has arrived and it's not a framework, it's not a language, it's firing off an agent and going to grab lunch while it writes your PR.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Product details below were checked in July 2026. This category changes stupidly fast, so treat version-specific details as a snapshot.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What Even Are Background Agents</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">If you've been living under a rock or touching grass (respect), here's the deal. Background agents are AI coding agents that run asynchronously, you give them a task, a ticket, a vague description of what you want, and they go off and do it. No babysitting. No watching the cursor dance across your screen. You literally assign work like it's a junior dev and come back to a pull request.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The difference from what we had before (autocomplete, inline suggestions, chat-based copilots) is that these things actually operate on their own. They clone repos, run tests, create branches, open PRs. All while you're arguing about tabs vs spaces in Slack.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Everyone and Their Mom Is Shipping One</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The landscape right now is genuinely insane.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Claude</strong> shipped <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://www.anthropic.com/engineering/managed-agents\" rel=\"noopener noreferrer\" target=\"_blank\">Managed Agents</a>, built around separating the reasoning loop from the execution environment. Anthropic handles orchestration, tool execution and recovery, with sessions that can keep running after you disconnect.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Cursor</strong> went full parallel with the <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://cursor.com/docs/agent/agents-window\" rel=\"noopener noreferrer\" target=\"_blank\">Agents Window</a>, letting multiple agents work independently while <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://cursor.com/docs/configuration/worktrees\" rel=\"noopener noreferrer\" target=\"_blank\">worktrees</a> keep their changes isolated. The exact limits and commands move with releases, but the direction is obvious: parallel attempts instead of one sacred agent run.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">GitHub Copilot</strong> evolved from autocomplete into a <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/\" rel=\"noopener noreferrer\" target=\"_blank\">coding agent</a> that can take an issue, work in an isolated environment and open a pull request. GitHub now supports multiple agent and model paths, so it is more accurate to describe this as a platform shift than one fixed model doing everything.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Devin</strong> is still doing the \"virtual teammate\" thing, except now with Interactive Planning where it maps out the entire approach before touching code.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">OpenCode</strong> has an open agent and plugin ecosystem, with the community building different delegation and background-work patterns around it.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">And then there are internal company systems. <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://engineering.ramp.com/post/why-we-built-our-background-agent\" rel=\"noopener noreferrer\" target=\"_blank\">Ramp says</a> its Inspect agent authored roughly 30% of merged pull requests across its frontend and backend repositories. Vercel also launched <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem\" rel=\"noopener noreferrer\" target=\"_blank\">Skills</a> to make reusable agent capabilities easier to distribute.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Timeline Effect</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">My X feed went from \"AI will never replace developers\" to \"I shipped 3 features while sleeping\" in about a month. Every dev influencer is posting their agent setup like it's a battlestation tour. The discourse is wild.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">And honestly? Most of it works. That's the scary part. These aren't demos anymore. People are actually merging agent-written code into production. The PRs pass CI. The tests pass. The code is... fine.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Fine. Not great. Fine.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Actual Vibe</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Here's what nobody's posting about in their threads: the amount of time you spend reviewing agent output is non-trivial. You went from writing code to reading code you didn't write, and there's a LOT of it.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">You fire off 3 background agents before your morning coffee, come back, and now you have 3 PRs with 2000 lines each that you need to actually understand. The agent didn't write it the way you would have. The abstractions are slightly off. The variable names are technically fine but spiritually wrong. There's a util function that does almost the same thing as one you already have but not quite.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Now you're not a developer, you're a code reviewer for a dev that never learns from your feedback.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Meta Shift</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The real shift isn't technical, it's cultural. The meta went from:</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Write code</strong> \u2192 <strong class=\"font-medium\">Prompt an AI to write code</strong> \u2192 <strong class=\"font-medium\">Fire off agents and manage the output</strong></p>\n<p class=\"text-text-secondary leading-snug animate-blur\">We went from craftsmen to managers in two years. And the weird part is, the people who are best at this aren't necessarily the best coders. They're the best delegators. The best spec writers. The best at breaking down problems into agent-sized chunks.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">System design skills went from \"nice to have for senior interviews\" to \"this is literally your entire job now.\"</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What Actually Works</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">After messing around with a bunch of these tools, here's what has made sense for me:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">Boilerplate and scaffolding</strong>: Background agents are gods at this. New CRUD endpoints, test suites, migration files, send it.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Bug fixes with clear reproduction</strong>: Give the agent the error, the stack trace, and the expected behavior. It'll find it faster than you scrolling through logs.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Documentation</strong>: Nobody wants to write docs. Let the agent do it. It's probably more thorough than what you'd write anyway.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Refactoring with clear rules</strong>: \"Convert all class components to functional components\" type tasks. Mechanical transformations at scale.</li>\n</ul>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What Doesn't Work (Yet)</h2>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">Anything requiring taste</strong>: UI decisions, API design, architecture choices. The agent will give you something that works but feels off.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Cross-cutting concerns</strong>: Agents are great at isolated tasks but struggle when changes need to ripple across boundaries they can't see.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Debugging weird production issues</strong>: The kind where you need to squint at metrics for 20 minutes and go \"wait, that number seems off.\" Agents don't have intuition.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Your actual hard problems</strong>: The ones that require domain knowledge, product context, and judgment calls. The ones that make your job your job.</li>\n</ul>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Uncomfortable Part</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Here's the thing I keep coming back to. If roughly 30% of Ramp's merged frontend and backend PRs can be authored by an internal agent and still pass review, what does that say about that slice of work?</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">It means a significant chunk of software engineering was always mechanical. Always pattern matching. Always \"I've done this before, let me do it again slightly differently.\" The agents just made that visible.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The work that remains, the 70%, that's the actual engineering. The thinking. The taste. The \"should we even build this\" conversations.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Where This Is Going</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Every major player is converging on the same vision: agents as teammates, not tools. GitHub is going \"Copilot-native.\" Anthropic wants you to define agents like you'd write a job description. Cursor wants you running a swarm from your IDE.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The endgame is obvious. You open a ticket, assign it to an agent, review the PR, merge, ship. The developer becomes the tech lead. The tech lead becomes the architect. The architect becomes... I don't know, a philosopher?</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Closing Thoughts</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Background agents are the new meta. That's just true now. Fighting it is like fighting the tide.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">But here's my actual take: the developers who thrive aren't going to be the ones who fire off the most agents. They're going to be the ones who know when NOT to. Who can look at a problem and say \"this needs a human\" or \"this needs taste\" or \"this needs someone who understands why we built it this way.\"</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The agents are getting better at the how. Your job is to stay sharp on the why.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Learn to delegate. Learn to review. Learn to spec. But don't forget how to code.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Because when the agent writes something truly broken at 3am and prod is on fire, nobody's going to ask Claude to fix it. They're going to call you.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Stay sharp. <!-- -->3</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The review-fatigue side of this is basically the longer version of <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/blog/i-miss-coding\">i miss coding</a>. If you want concrete examples of the harness and evaluation side, see <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/furnace\">furnace</a>, <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/teamchannel\">teamchannel</a>, and <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/lvl\">lvl</a>.</p></div><div class=\"mt-16 border-t border-zinc-200 pt-8\"><h3 class=\"mb-1 text-sm text-zinc-700\">disagree?</h3><p class=\"mb-4 text-xs text-zinc-500\">write what you wanna fight about and i'll read it.</p><textarea class=\"w-full resize-none rounded-sm border border-zinc-300 bg-transparent px-3 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 transition-colors focus:border-zinc-500 focus:outline-none\" placeholder=\"you're wrong about...\" rows=\"3\"></textarea><button class=\"mt-3 cursor-pointer rounded-sm border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-500 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-zinc-300 disabled:hover:text-zinc-700\" disabled=\"\">fight me \u2192</button></div></article>"
-    },
-    {
-      "slug": "i-miss-coding",
-      "title": "i miss coding :(",
-      "date": "10 April 2026",
-      "dateIso": "2026-04-10",
-      "summary": "We write more code than ever. So why does it feel like less?",
-      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://ashitosh.dev/blog/i-miss-coding#webpage\",\"url\":\"https://ashitosh.dev/blog/i-miss-coding\",\"name\":\"i miss coding :(\",\"description\":\"We write more code than ever. So why does it feel like less?\",\"isPartOf\":{\"@id\":\"https://ashitosh.dev/#website\"},\"breadcrumb\":{\"@id\":\"https://ashitosh.dev/blog/i-miss-coding#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://ashitosh.dev/blog/i-miss-coding#article\"}},{\"@type\":\"BlogPosting\",\"@id\":\"https://ashitosh.dev/blog/i-miss-coding#article\",\"headline\":\"i miss coding :(\",\"description\":\"We write more code than ever. So why does it feel like less?\",\"datePublished\":\"2026-04-10\",\"dateModified\":\"2026-07-17\",\"articleSection\":\"personal essay\",\"mainEntityOfPage\":{\"@id\":\"https://ashitosh.dev/blog/i-miss-coding#webpage\"},\"url\":\"https://ashitosh.dev/blog/i-miss-coding\",\"image\":\"https://ashitosh.dev/opengraph-image\",\"inLanguage\":\"en\",\"author\":{\"@id\":\"https://ashitosh.dev/#person\"},\"publisher\":{\"@id\":\"https://ashitosh.dev/#person\"},\"citation\":[\"https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/\",\"https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/\"]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ashitosh.dev/blog/i-miss-coding#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ashitosh.dev/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://ashitosh.dev/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"i miss coding :(\",\"item\":\"https://ashitosh.dev/blog/i-miss-coding\"}]}]}</script><p class=\"mb-8 text-xs text-zinc-500\">personal essay<!-- --> \u00b7 by<!-- --> <a class=\"text-zinc-600 transition-colors hover:text-zinc-950\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> <!-- -->\u00b7 updated<!-- --> <time datetime=\"2026-07-17\">17 July 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-snug animate-blur\">Every time there's a new feature to be made, a new sidequest to be undertaken, I used to find myself staring blankly at the new file I just created, be it <strong class=\"font-medium\">feature1.tsx</strong> or <strong class=\"font-medium\">server.js</strong> in case of a new project, and plan out everything before I started off with my import statements.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">But there was something surreal, even if the LOC/day was probably 1/100th of what it is right now, but the feel of writing the return statements and the middlewares and feeling the ounce of productive dopamine that used to make days worth living are now replaced with staring at an agent screen wondering if I should spin up another one just to tackle something else or go grab something to eat while the current swarm of agents are done, 10s of thousands of LOC only to feel a fraction of the joy/dopamine I felt earlier with probably 300% more AI slop that I will be refactoring later tonight. Is this all really worth it?</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Rebellion</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Fuck this shit, I said.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">I'll code it out myself, I said.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Reality</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">And I did actually, I tried, but it's the same as fighting against the current, you will be able to fight for a hot minute until you are blown miles away.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">In my experience, the code feels better when I write more of it myself, and I definitely enjoy the job again. But can you fight against the deadline of 3 features in half a day, 5000 lines refactored within a lunch break or multi-week feature pushes being done over the weekend with jokes flying off in the Slack channels.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Real Question</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The question is no longer of how much bad code can u let the AI write, but how much slop till you no longer identify your own codebase and are forced to spend a night refactoring and stripping away so much tokens used to write those lines that you might as well just have hired 3 interns to do it better for you.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The question becomes is it worth spending 3 weeks polishing a feature or embracing the \"ship fast, fix faster\" mindset in all of its glory and giving in to it.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Noise</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">I hear that it's over for my job, in my line of work more times than I hear birds chirping in the morning, yet here we are.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Some people say the job is now more about architecture and efficiently planning. Maybe that genuinely works for them. For me, nothing beats the dopamine hit from figuring out a bug that's been killing you, only to realize it's something silly rather than spamming \"fix it\" at an agent like cheap labour.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Acceptance</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">This ain't a rant about something that we should bring back or something that's wrong with the society, it's just part of the change, something u can't fight but u can only embrace while missing what once used to be.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What Helps</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Personally I have gotten used to it now, it's not as good but not as bad as it initially seemed, try to get involved in the code as much as u can or ig it's just a me thing, just get involved try to find the bugs before hitting send on another prompt, read out the plans before just hitting build, and probably learn about system designs and shi to guide the agent better.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Another tip: the more u hate agents and the more u realize how flawed they are, the better u work with them, the better u guide them, the better u find shit before it hits u with double your salary worth of prod bills.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Some skills are truly timeless, learn those, don't let the agent lead you into bankruptcy and happy coding, or whatever's left of it anymore. <!-- -->3</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">If you want the more operational side of this rant, I wrote about , and <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/furnace\">furnace</a> is where I keep poking at the coding-agent side directly.</p></div><div class=\"mt-16 border-t border-zinc-200 pt-8\"><h3 class=\"mb-1 text-sm text-zinc-700\">disagree?</h3><p class=\"mb-4 text-xs text-zinc-500\">write what you wanna fight about and i'll read it.</p><textarea class=\"w-full resize-none rounded-sm border border-zinc-300 bg-transparent px-3 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 transition-colors focus:border-zinc-500 focus:outline-none\" placeholder=\"you're wrong about...\" rows=\"3\"></textarea><button class=\"mt-3 cursor-pointer rounded-sm border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-500 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-zinc-300 disabled:hover:text-zinc-700\" disabled=\"\">fight me \u2192</button></div></article>"
-    },
-    {
-      "slug": "agi-to-system-prompting",
-      "title": "the AGI race became a prompting race",
-      "date": "29 January 2026",
-      "dateIso": "2026-01-29",
-      "summary": "How the pursuit of artificial general intelligence turned into competitive system prompt engineering",
-      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://ashitosh.dev/blog/agi-to-system-prompting#webpage\",\"url\":\"https://ashitosh.dev/blog/agi-to-system-prompting\",\"name\":\"the AGI race became a prompting race\",\"description\":\"How the pursuit of artificial general intelligence turned into competitive system prompt engineering\",\"isPartOf\":{\"@id\":\"https://ashitosh.dev/#website\"},\"breadcrumb\":{\"@id\":\"https://ashitosh.dev/blog/agi-to-system-prompting#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://ashitosh.dev/blog/agi-to-system-prompting#article\"}},{\"@type\":\"BlogPosting\",\"@id\":\"https://ashitosh.dev/blog/agi-to-system-prompting#article\",\"headline\":\"the AGI race became a prompting race\",\"description\":\"How the pursuit of artificial general intelligence turned into competitive system prompt engineering\",\"datePublished\":\"2026-01-29\",\"dateModified\":\"2026-07-17\",\"articleSection\":\"industry commentary\",\"mainEntityOfPage\":{\"@id\":\"https://ashitosh.dev/blog/agi-to-system-prompting#webpage\"},\"url\":\"https://ashitosh.dev/blog/agi-to-system-prompting\",\"image\":\"https://ashitosh.dev/opengraph-image\",\"inLanguage\":\"en\",\"author\":{\"@id\":\"https://ashitosh.dev/#person\"},\"publisher\":{\"@id\":\"https://ashitosh.dev/#person\"},\"citation\":[\"https://openai.com/charter/\",\"https://openai.com/index/planning-for-agi-and-beyond/\",\"https://openai.com/index/scaling-laws-for-neural-language-models/\",\"https://openai.com/index/instruction-following/\",\"https://cdn.openai.com/papers/gpt-4-system-card.pdf\"]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ashitosh.dev/blog/agi-to-system-prompting#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ashitosh.dev/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://ashitosh.dev/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"the AGI race became a prompting race\",\"item\":\"https://ashitosh.dev/blog/agi-to-system-prompting\"}]}]}</script><p class=\"mb-8 text-xs text-zinc-500\">industry commentary<!-- --> \u00b7 by<!-- --> <a class=\"text-zinc-600 transition-colors hover:text-zinc-950\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> <!-- -->\u00b7 updated<!-- --> <time datetime=\"2026-07-17\">17 July 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-snug animate-blur\">We were promised AGI. Machines that think. Systems that reason. The next step in intelligence.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">What we got instead is a competition to write better system prompts.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Great Pivot</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Somewhere around 2023-2024, the product narrative shifted hard toward \u201ccapabilities.\u201d Labs did not literally abandon AGI\u2014OpenAI still puts it in its <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://openai.com/charter/\" rel=\"noopener noreferrer\" target=\"_blank\">charter</a>\u2014but the stuff users could buy was increasingly framed around instruction following, tools and measurable tasks.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">And honestly? That's not a bad thing. But let's be honest about what happened.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What AGI Was Supposed To Be</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The working definition I had in mind:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">General reasoning</strong> - Apply intelligence to novel problems without specific training</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Transfer learning</strong> - Skills in one domain naturally extend to others</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Autonomous goal pursuit</strong> - Set a goal, figure out the steps, execute</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Self-improvement</strong> - Get better without human intervention</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Understanding</strong> - Not just pattern matching, but genuine comprehension</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">This was the dream that launched a thousand research papers.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What We Actually Built</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">What we have now:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">Autoregressive language models</strong> - Predict the next token, then add post-training and inference systems</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">In-context learning</strong> - Follow examples in the prompt</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Instruction following</strong> - Do what the system prompt says</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Tool use</strong> - Call APIs when prompted to</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">These are genuinely impressive. Whether they add up to AGI depends on whose definition you use; they do not match the version I had in mind above.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The System Prompt Wars</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Here's where it gets interesting. The model still matters\u2014a lot\u2014but product behavior increasingly comes from the whole harness around it: prompts, tools, retrieval, memory, evals and permissions.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Same model, different harness, completely different product.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Claude, GPT and Gemini share transformer ancestry, but they are not the same base model. The product magic is in the weights and post-training <strong class=\"font-medium\">plus</strong> everything wrapped around them:</p>\n<pre class=\"bg-border/20 border border-border p-4 rounded-sm overflow-x-auto text-sm font-mono text-text-primary my-4\"><code class=\"border border-border px-2 py-1 rounded text-sm font-mono text-text-primary\">You are a helpful assistant that...\n</code></pre>\n<p class=\"text-text-secondary leading-snug animate-blur\">That little block is not the entire moat. It is just the most visible part of a much larger system.</p>\n<h3 class=\"text-text-primary w-fit pb-1 font-medium mt-8 mb-3\">The Prompt Engineering Industrial Complex</h3>\n<p class=\"text-text-secondary leading-snug animate-blur\">A new discipline emerged:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">Prompt and eval specialists</strong> writing and testing instructions</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">System prompt libraries</strong> being treated as trade secrets</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">A/B testing</strong> prompts like landing pages</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Prompt injection attacks</strong> as a security category</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Jailbreaking</strong> as a competitive sport</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">We didn't build thinking machines. We built really good instruction followers. And now we're competing on who can write the best instructions.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Capability Illusion</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Modern LLMs create behavior that is easy to over-interpret:</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">They can code</strong> - Sometimes brilliantly, sometimes by reproducing familiar patterns without a stable model of the system</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">They can reason</strong> - But a fluent chain-of-thought is not proof that the visible explanation matches the mechanism that produced the answer</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">They can learn in-context</strong> - But that temporary adaptation is not the same thing as updating model weights</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">They can use tools</strong> - But only through interfaces the surrounding system exposes</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The impressive demo is usually a model-plus-system result, not the model acting alone.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Why This Happened</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The pivot makes sense when you understand the economics:</p>\n<ol class=\"text-text-secondary\">\n<li class=\"leading-7\"><strong class=\"font-medium\"><a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://openai.com/index/scaling-laws-for-neural-language-models/\" rel=\"noopener noreferrer\" target=\"_blank\">Scaling laws</a> worked</strong> - More compute produced predictable improvements.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\"><a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://openai.com/index/instruction-following/\" rel=\"noopener noreferrer\" target=\"_blank\">RLHF and instruction tuning</a> worked</strong> - Post-training made models much more useful.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Products shipped</strong> - ChatGPT proved you could monetize this.</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">AGI is hard</strong> - True reasoning is unsolved. Prompting is a workaround.</li>\n</ol>\n<p class=\"text-text-secondary leading-snug animate-blur\">The path of least resistance was clear: stop trying to solve general intelligence, start making really good chatbots.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Uncomfortable Truth</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Here's what nobody wants to admit:</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">We don't know how to build AGI.</strong> My bet is that scaling alone will not settle it, and better prompts definitely will not settle it by themselves.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Current AI is deeply brittle.</strong> Change the prompt slightly and watch the model break. That's not intelligence - that's sensitivity to input formatting.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Benchmarks get optimized against.</strong> Contamination, narrow tuning and repeated leaderboard pressure can make a score less representative of real use. That is why I care more about task-level evaluation systems like <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/projects/lvl\">lvl</a> than one magic aggregate number.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What This Means For Builders</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">If you're building with AI:</p>\n<ol class=\"text-text-secondary\">\n<li class=\"leading-7\"><strong class=\"font-medium\">The harness is part of your product</strong> - Invest in prompts, tools, evals and failure handling accordingly</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Don't assume intelligence</strong> - Your model is following instructions, not thinking</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Build for failure modes</strong> - Every edge case is a prompt failure</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Stay model-agnostic</strong> - Today's best model is tomorrow's commodity</li>\n</ol>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Path to Real AGI</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">What might actually move the needle:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">New architectures</strong> - Transformers might not be the final answer</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">World models</strong> - Systems that understand cause and effect</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Active learning</strong> - Models that seek out information they need</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Compositional reasoning</strong> - Building complex thoughts from simple primitives</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">But these are research problems, not prompt engineering problems.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Closing Thoughts</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The AGI race became a prompting race because prompting works well enough for products. And products make money.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">That's not cynical - it's practical. We build with the tools we have.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">But let's stop pretending that better system prompts alone are steps toward AGI. They are steps toward more useful products, and that is still worth doing.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Just don't confuse utility with intelligence.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The machines aren't thinking yet. They're just really good at following instructions.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">And the humans writing those instructions? They're the real intelligence in the system.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">At least for now.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">For the builder version of this argument, <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/blog/simplicity-the-saviour\">Simplicity the Saviour</a> gets into why fewer tools and clearer context often beat a giant prompt.</p></div><div class=\"mt-16 border-t border-zinc-200 pt-8\"><h3 class=\"mb-1 text-sm text-zinc-700\">disagree?</h3><p class=\"mb-4 text-xs text-zinc-500\">write what you wanna fight about and i'll read it.</p><textarea class=\"w-full resize-none rounded-sm border border-zinc-300 bg-transparent px-3 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 transition-colors focus:border-zinc-500 focus:outline-none\" placeholder=\"you're wrong about...\" rows=\"3\"></textarea><button class=\"mt-3 cursor-pointer rounded-sm border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-500 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-zinc-300 disabled:hover:text-zinc-700\" disabled=\"\">fight me \u2192</button></div></article>"
-    },
-    {
-      "slug": "web3-reality-check",
-      "title": "web3 isn't what you think it is",
-      "date": "28 January 2026",
-      "dateIso": "2026-01-28",
-      "summary": "The gap between the web3 dream and what we actually got",
-      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://ashitosh.dev/blog/web3-reality-check#webpage\",\"url\":\"https://ashitosh.dev/blog/web3-reality-check\",\"name\":\"web3 isn't what you think it is\",\"description\":\"The gap between the web3 dream and what we actually got\",\"isPartOf\":{\"@id\":\"https://ashitosh.dev/#website\"},\"breadcrumb\":{\"@id\":\"https://ashitosh.dev/blog/web3-reality-check#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://ashitosh.dev/blog/web3-reality-check#article\"}},{\"@type\":\"BlogPosting\",\"@id\":\"https://ashitosh.dev/blog/web3-reality-check#article\",\"headline\":\"web3 isn't what you think it is\",\"description\":\"The gap between the web3 dream and what we actually got\",\"datePublished\":\"2026-01-28\",\"dateModified\":\"2026-07-17\",\"articleSection\":\"industry commentary\",\"mainEntityOfPage\":{\"@id\":\"https://ashitosh.dev/blog/web3-reality-check#webpage\"},\"url\":\"https://ashitosh.dev/blog/web3-reality-check\",\"image\":\"https://ashitosh.dev/opengraph-image\",\"inLanguage\":\"en\",\"author\":{\"@id\":\"https://ashitosh.dev/#person\"},\"publisher\":{\"@id\":\"https://ashitosh.dev/#person\"},\"citation\":[\"https://eips.ethereum.org/EIPS/eip-721\",\"https://ethereum.org/layer-2/learn/\",\"https://ethereum.org/developers/docs/scaling/optimistic-rollups/\",\"https://ethereum.org/developers/docs/scaling/zk-rollups/\"]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ashitosh.dev/blog/web3-reality-check#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ashitosh.dev/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://ashitosh.dev/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"web3 isn't what you think it is\",\"item\":\"https://ashitosh.dev/blog/web3-reality-check\"}]}]}</script><p class=\"mb-8 text-xs text-zinc-500\">industry commentary<!-- --> \u00b7 by<!-- --> <a class=\"text-zinc-600 transition-colors hover:text-zinc-950\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> <!-- -->\u00b7 updated<!-- --> <time datetime=\"2026-07-17\">17 July 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-snug animate-blur\">Everyone sold you a dream. Decentralization. Ownership. Freedom from big tech. The future of the internet.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">And then we got... jpegs of apes.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Original Promise</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The pitch was compelling. A new internet where:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\">You own your data</li>\n<li class=\"leading-7\">No single company controls the platform</li>\n<li class=\"leading-7\">Censorship-resistant applications</li>\n<li class=\"leading-7\">Trustless transactions without intermediaries</li>\n<li class=\"leading-7\">True digital ownership</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">Sounds revolutionary. The kind of thing worth building.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">But somewhere between the whitepaper and reality, something went wrong.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What We Actually Built</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Let's look at what web3 became in practice:</p>\n<h3 class=\"text-text-primary w-fit pb-1 font-medium mt-8 mb-3\">Centralized \"Decentralization\"</h3>\n<p class=\"text-text-secondary leading-snug animate-blur\">Plenty of dApps still depend on centralized RPC providers such as Infura or Alchemy for node access. OpenSea also became a dominant interface for NFTs. The underlying network can remain decentralized while the product surface people actually use develops very centralized choke points.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The irony is brutal.</p>\n<h3 class=\"text-text-primary w-fit pb-1 font-medium mt-8 mb-3\">Ownership Theater</h3>\n<p class=\"text-text-secondary leading-snug animate-blur\">You may own the token, but many NFT implementations still leave important parts elsewhere:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\">The media or metadata may be hosted on a server that can go offline</li>\n<li class=\"leading-7\">The marketplace can delist you</li>\n<li class=\"leading-7\">Some contracts allow metadata or administrative behavior to change</li>\n<li class=\"leading-7\">The token may point to a URI that can disappear</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">The <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://eips.ethereum.org/EIPS/eip-721\" rel=\"noopener noreferrer\" target=\"_blank\">ERC-721 standard</a> allows token metadata to be represented through a URI; projects can make stronger choices with IPFS or fully on-chain data, but the token alone does not guarantee that.</p>\n<h3 class=\"text-text-primary w-fit pb-1 font-medium mt-8 mb-3\">The Speculation Machine</h3>\n<p class=\"text-text-secondary leading-snug animate-blur\">Web3 was supposed to enable new business models. Instead, it became the most efficient speculation machine ever built.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Every token launch follows the same pattern:</p>\n<ol class=\"text-text-secondary\">\n<li class=\"leading-7\">Promise revolutionary tech</li>\n<li class=\"leading-7\">Create artificial scarcity</li>\n<li class=\"leading-7\">Early insiders accumulate</li>\n<li class=\"leading-7\">Retail buys the hype</li>\n<li class=\"leading-7\">Dump</li>\n</ol>\n<p class=\"text-text-secondary leading-snug animate-blur\">Repeat until the next narrative cycle.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Technical Reality</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Here's what nobody talks about at conferences:</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Scalability still comes with trade-offs.</strong> Ethereum's base layer has limited throughput. <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"https://ethereum.org/layer-2/learn/\" rel=\"noopener noreferrer\" target=\"_blank\">Layer 2 systems</a> add capacity, but their sequencers, proving systems, upgrade controls and data-availability choices introduce different trust assumptions. That is more nuanced than \u201cL2 equals centralized,\u201d but it is not free scale either.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">UX is terrible.</strong> Gas fees, wallet management, seed phrases, transaction signing - every interaction is friction. Normal users don't want to think about any of this.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\"><strong class=\"font-medium\">Immutability is not automatically a feature.</strong> When code is law, bugs can become permanent. The DAO fork showed that protocol rules and social governance can collide when enough value is at stake.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">What Web3 Got Right</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">It's not all bad. Some genuine innovations emerged:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\"><strong class=\"font-medium\">Programmable money</strong> - Smart contracts are genuinely useful for specific applications</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Permissionless innovation</strong> - Anyone can build without asking permission</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">Transparent systems</strong> - On-chain data is auditable by anyone</li>\n<li class=\"leading-7\"><strong class=\"font-medium\">New coordination mechanisms</strong> - DAOs, despite their flaws, showed new ways to organize</li>\n</ul>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Path Forward</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Web3 doesn't need more hype. It needs builders who:</p>\n<ol class=\"text-text-secondary\">\n<li class=\"leading-7\">Focus on real problems, not token speculation</li>\n<li class=\"leading-7\">Admit when centralized solutions are better</li>\n<li class=\"leading-7\">Prioritize UX over ideological purity</li>\n<li class=\"leading-7\">Build sustainable business models</li>\n</ol>\n<p class=\"text-text-secondary leading-snug animate-blur\">The technology has potential. But potential doesn't ship products.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Closing Thoughts</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Web3 isn't dead. It's just not what the marketing promised.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The next generation of builders will need to separate the useful primitives from the speculation theater. Use blockchain where it makes sense. Use traditional infrastructure where it doesn't.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Stop drinking the kool-aid. Start building things that work.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">The future isn't decentralized or centralized. It's whatever actually solves problems for real users.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">And right now, that's not a jpeg of an ape.</p></div><div class=\"mt-16 border-t border-zinc-200 pt-8\"><h3 class=\"mb-1 text-sm text-zinc-700\">disagree?</h3><p class=\"mb-4 text-xs text-zinc-500\">write what you wanna fight about and i'll read it.</p><textarea class=\"w-full resize-none rounded-sm border border-zinc-300 bg-transparent px-3 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 transition-colors focus:border-zinc-500 focus:outline-none\" placeholder=\"you're wrong about...\" rows=\"3\"></textarea><button class=\"mt-3 cursor-pointer rounded-sm border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-500 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-zinc-300 disabled:hover:text-zinc-700\" disabled=\"\">fight me \u2192</button></div></article>"
-    },
-    {
-      "slug": "why-markdown",
-      "title": "This website is made with Markdown, why?",
-      "date": "17 October 2025",
-      "dateIso": "2025-10-17",
-      "summary": "Why I use Markdown for my portfolio website instead of pure React",
-      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://ashitosh.dev/blog/why-markdown#webpage\",\"url\":\"https://ashitosh.dev/blog/why-markdown\",\"name\":\"This website is made with Markdown, why?\",\"description\":\"Why I use Markdown for my portfolio website instead of pure React\",\"isPartOf\":{\"@id\":\"https://ashitosh.dev/#website\"},\"breadcrumb\":{\"@id\":\"https://ashitosh.dev/blog/why-markdown#breadcrumb\"},\"mainEntity\":{\"@id\":\"https://ashitosh.dev/blog/why-markdown#article\"}},{\"@type\":\"BlogPosting\",\"@id\":\"https://ashitosh.dev/blog/why-markdown#article\",\"headline\":\"This website is made with Markdown, why?\",\"description\":\"Why I use Markdown for my portfolio website instead of pure React\",\"datePublished\":\"2025-10-17\",\"dateModified\":\"2026-07-17\",\"articleSection\":\"technical field note\",\"mainEntityOfPage\":{\"@id\":\"https://ashitosh.dev/blog/why-markdown#webpage\"},\"url\":\"https://ashitosh.dev/blog/why-markdown\",\"image\":\"https://ashitosh.dev/opengraph-image\",\"inLanguage\":\"en\",\"author\":{\"@id\":\"https://ashitosh.dev/#person\"},\"publisher\":{\"@id\":\"https://ashitosh.dev/#person\"},\"citation\":[\"https://nextjs.org/docs/app/guides/mdx\",\"https://nextjs.org/docs/app/guides/static-exports\",\"https://mdxjs.com/\"]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://ashitosh.dev/blog/why-markdown#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://ashitosh.dev/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://ashitosh.dev/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"This website is made with Markdown, why?\",\"item\":\"https://ashitosh.dev/blog/why-markdown\"}]}]}</script><p class=\"mb-8 text-xs text-zinc-500\">technical field note<!-- --> \u00b7 by<!-- --> <a class=\"text-zinc-600 transition-colors hover:text-zinc-950\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> <!-- -->\u00b7 updated<!-- --> <time datetime=\"2026-07-17\">17 July 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-snug animate-blur\">The writing on this website is powered by Markdown, not a CMS. The site itself is still a Next.js app with React components; the posts are simple <code class=\"border border-border px-2 py-1 rounded text-sm font-mono text-text-primary\">.mdx</code> files.\nHere\u2019s why that approach makes sense.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Simplicity First</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">I wanted to write content, not manage components or props. Markdown gives me that direct, minimal writing experience.<br/>\n<!-- -->It feels like working in a personal notebook that just happens to render as a full website.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">No setup, no extra tooling, no distraction.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">Just:</p>\n<pre class=\"bg-border/20 border border-border p-4 rounded-sm overflow-x-auto text-sm font-mono text-text-primary my-4\"><code class=\"language-bash\">---\ntitle: Hello World\ndate: 17 October, 2025\n---\nMy first blog post.\n</code></pre>\n<p class=\"text-text-secondary leading-snug animate-blur\">And it becomes a page.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">MDX: Markdown with React Superpowers</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Markdown is great for text, but I still wanted to add React components where needed: interactive elements, code demos, or custom UI blocks.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">That\u2019s why I use MDX with Next.js.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">MDX lets me mix content and components naturally:</p>\n<pre class=\"bg-border/20 border border-border p-4 rounded-sm overflow-x-auto text-sm font-mono text-text-primary my-4\"><code class=\"language-mdx\">Here\u2019s a counter inside a blog post:\n\n&lt;Counter /&gt;\n</code></pre>\n<p class=\"text-text-secondary leading-snug animate-blur\">This allows me to build interactive sections without leaving the Markdown flow.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Easy Version Control</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">All my posts are stored as <code class=\"border border-border px-2 py-1 rounded text-sm font-mono text-text-primary\">.mdx</code> files, which means they work seamlessly with Git.<br/>\n<!-- -->I can track changes, create branches for drafts, and push updates like any other code commit.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">No database, no CMS dashboard, no authentication layers.<br/>\n<!-- -->If I want to publish, I commit and deploy.</p>\n<br/>\n<p class=\"text-text-secondary leading-snug animate-blur\">This means that if I want to make any minor changes to my website, or even post a new blog article, I can do it while I'm going to the grocery store or waiting in line for coffee.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Performance and Portability</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">The blog routes are generated from files during the build, so reading a post does not require querying a CMS or database. The wider site still has runtime features, including dynamic follower data and the terminal chat.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">That keeps the content layer lightweight while letting the application stay dynamic where it actually needs to be. A fully static host would require a proper Next.js static export and removing or adapting those runtime features.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Developer Aesthetic</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Writing Markdown feels natural. It\u2019s how developers document projects, write READMEs, and take notes.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">There\u2019s no need for a visual editor when I can stay inside my code environment and keep full control over structure and styling.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">The Stack</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Here\u2019s what powers the site:</p>\n<ul class=\"list-disc ml-5 space-y-2 my-4\">\n<li class=\"leading-7\">Next.js for the framework</li>\n<li class=\"leading-7\"><code class=\"border border-border px-2 py-1 rounded text-sm font-mono text-text-primary\">gray-matter</code> for frontmatter</li>\n<li class=\"leading-7\"><code class=\"border border-border px-2 py-1 rounded text-sm font-mono text-text-primary\">next-mdx-remote</code> and <code class=\"border border-border px-2 py-1 rounded text-sm font-mono text-text-primary\">@next/mdx</code> for Markdown + React support</li>\n<li class=\"leading-7\">Tailwind CSS for styling</li>\n<li class=\"leading-7\">Motion and small custom React components for animations</li>\n</ul>\n<p class=\"text-text-secondary leading-snug animate-blur\">That\u2019s the full setup.<br/>\n<!-- -->No CMS, no plugins, no unnecessary complexity.</p>\n<h2 class=\"text-heading text-xl w-fit font-medium pb-2 mt-8 mb-3\">Closing Thoughts</h2>\n<p class=\"text-text-secondary leading-snug animate-blur\">Building the writing side of this site in Markdown keeps everything simple, flexible, and version-controlled.\nIt\u2019s a reminder that sometimes, the simplest tools are still the best, especially when they integrate perfectly into a developer workflow.</p>\n<p class=\"text-text-secondary leading-snug animate-blur\">That same bias toward smaller surfaces shows up in <a class=\"hover:text-accent hover:underline !w-full items-center gap-2 inline group relative text-text-secondary\" href=\"/blog/simplicity-the-saviour\">Simplicity the Saviour</a>.</p></div><div class=\"mt-16 border-t border-zinc-200 pt-8\"><h3 class=\"mb-1 text-sm text-zinc-700\">disagree?</h3><p class=\"mb-4 text-xs text-zinc-500\">write what you wanna fight about and i'll read it.</p><textarea class=\"w-full resize-none rounded-sm border border-zinc-300 bg-transparent px-3 py-2 text-sm text-zinc-800 placeholder:text-zinc-400 transition-colors focus:border-zinc-500 focus:outline-none\" placeholder=\"you're wrong about...\" rows=\"3\"></textarea><button class=\"mt-3 cursor-pointer rounded-sm border border-zinc-300 px-4 py-2 text-sm text-zinc-700 transition-colors hover:border-zinc-500 hover:text-zinc-950 disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:border-zinc-300 disabled:hover:text-zinc-700\" disabled=\"\">fight me \u2192</button></div></article>"
-    }
-  ],
   "projects": [
     {
-      "slug": "safewaves",
-      "title": "SafeWaves",
-      "date": "january, 2026",
-      "badge": "done",
-      "summary": "AI-powered multi-threat cyber defense platform detecting phishing, deepfakes, prompt injection, and anomalies across 6 threat categories.",
-      "description": "A comprehensive cyber defense platform engineered to detect phishing, malicious URLs, deepfakes, prompt injection, behavioral anomalies, and AI-generated content across 6 distinct categories with SHAP explainability.",
+      "slug": "prism-playground",
+      "title": "Prism Playground",
+      "subtitle": "Interactive Glass Workspace for React Finance Components",
+      "date": "august, 2026",
+      "badge": "live in prod",
+      "previewImage": "/images/projects/prism-preview.png",
+      "summary": "a high-performance glass workspace and component workbench for building, testing, and measuring React finance components in real-time.",
+      "description": "Prism is an interactive component playground and design-system testing laboratory tailored for high-frequency finance engineering. It allows developers to stress-test complex React widgets, manipulate layout tokens in a glassmorphic viewport, inspect component optics live, and benchmark runtime re-render performance.",
       "meta": [
         {
-          "term": "type",
-          "desc": "AI cyber defense platform"
+          "term": "live url",
+          "desc": "prism-playground-alpha.vercel.app"
         },
         {
-          "term": "for",
-          "desc": "security teams & organizations"
+          "term": "focus",
+          "desc": "Finance UI components, sub-millisecond reactivity, optics playground"
         },
         {
           "term": "stack",
-          "desc": "Python, React, FastAPI, PyTorch, Tailwind CSS, Zustand, SQLite"
+          "desc": "React 19, Vite, Tailwind CSS, Optics Engine, Lucide, Web Animations"
         },
         {
-          "term": "status",
-          "desc": "live in production"
+          "term": "architecture",
+          "desc": "Zero-dependency sandbox with live property reflection"
         }
       ],
       "features": [
-        "Detects 6 distinct threat categories: phishing, malicious URLs, deepfakes, prompt injection, anomalies, and AI content",
-        "Explainable ML pipeline with SHAP-based feature attribution and natural-language remediation guidance",
-        "Real-time threat streaming using Server-Sent Events (SSE) and reactive Zustand state management",
-        "Adversarial testing suite evaluated against 500+ obfuscated attacks, reducing false positives by 15%"
+        "Interactive glassmorphic component canvas with live optics visualization and token tuning",
+        "Sub-millisecond state updates with pinpoint isolation preventing cascading React tree re-renders",
+        "Integrated financial data primitives including real-time charts, transaction ledgers, and order ticket widgets",
+        "Full keyboard shortcut navigation and instant live state sharing across viewport configurations"
+      ],
+      "links": [
+        {
+          "label": "visit live",
+          "url": "https://prism-playground-alpha.vercel.app"
+        },
+        {
+          "label": "view source",
+          "url": "https://github.com/23f3000434"
+        }
+      ]
+    },
+    {
+      "slug": "butterlane",
+      "title": "Butterlane",
+      "subtitle": "Artisan Bakery & Cake Shop Management System",
+      "date": "june, 2026",
+      "badge": "live in prod",
+      "previewImage": "/images/projects/butterlane.png",
+      "summary": "comprehensive operational suite for artisan cake shops: live order pipeline, ingredient stock tracking, automated bill calculation, and customer records.",
+      "description": "Butterlane is a specialized cake shop management platform built to streamline the intricate workflows of boutique bakeries. From handling bespoke tiered cake orders and scheduling bake times to deducting raw ingredient stocks and tracking customer repeat purchases, Butterlane replaces fragmented spreadsheets with an elegant, responsive operational dashboard.",
+      "meta": [
+        {
+          "term": "live url",
+          "desc": "cake-shop-management-five.vercel.app"
+        },
+        {
+          "term": "type",
+          "desc": "Production Bakery ERP & POS System"
+        },
+        {
+          "term": "stack",
+          "desc": "React, Tailwind CSS, Vite, Zustand, LocalStorage Cache, HTML5 Canvas"
+        },
+        {
+          "term": "efficiency",
+          "desc": "40% faster order intake & automated recipe ingredient scaling"
+        }
+      ],
+      "features": [
+        "Real-time cake order management tracking design specs, flavor tiers, delivery dates, and payment states",
+        "Automated inventory engine that scales recipe ingredients and warns when critical supplies run low",
+        "Instant Point-of-Sale (POS) bill generation with printable customer invoices and tax breakdown",
+        "Customer directory tracking preferences, past orders, and upcoming birthday/anniversary reminders"
+      ],
+      "links": [
+        {
+          "label": "visit live",
+          "url": "https://cake-shop-management-five.vercel.app/#dashboard"
+        },
+        {
+          "label": "view source",
+          "url": "https://github.com/23f3000434"
+        }
+      ]
+    },
+    {
+      "slug": "safewaves",
+      "title": "SafeWaves",
+      "subtitle": "Real-Time Web Security & Threat Monitoring Platform",
+      "date": "march, 2026",
+      "badge": "award winner",
+      "award": "Top 30 Finalist (300+ Teams) — IndiaNext Hackathon 2026",
+      "previewImage": "/images/projects/safewaves-preview.png",
+      "summary": "intelligent threat monitoring and URL security platform detecting malicious domains, deceptive links, and phishing payloads in real time. Top 30 Finalist @ IndiaNext Hackathon 2026.",
+      "description": "An intelligent real-time security and threat monitoring platform built during IndiaNext Hackathon 2026 (K.E.S. Shroff College, Mumbai) where it placed as a Top 30 Finalist out of 300+ competing teams, now deployed live in production. It protects users by identifying phishing domains, suspicious redirect chains, and unauthorized data exfiltration attempts.",
+      "meta": [
+        {
+          "term": "award",
+          "desc": "Top 30 Finalist (300+ Teams) - IndiaNext Hackathon 2026 (K.E.S. Shroff College, Mumbai)"
+        },
+        {
+          "term": "live url",
+          "desc": "safewaves.vercel.app"
+        },
+        {
+          "term": "stack",
+          "desc": "Python, React, FastAPI, Tailwind CSS, Zustand, SQLite, SSE"
+        },
+        {
+          "term": "performance",
+          "desc": "Sub-150ms URL scanning & real-time telemetry streaming"
+        }
+      ],
+      "features": [
+        "Real-time threat monitoring detecting malicious URLs, deceptive domain spoofs, and phishing payloads",
+        "Transparent heuristic inspection pipeline with interactive risk attribution and natural-language safety guidance",
+        "Live streaming telemetry engine using Server-Sent Events (SSE) and reactive Zustand state management",
+        "Automated security test harness evaluated against 500+ real-world attack vectors with low false-positive rate"
       ],
       "links": [
         {
@@ -185,143 +254,171 @@ export const siteData = {
       ]
     },
     {
-      "slug": "codebattle",
-      "title": "CodeBattle",
-      "date": "december, 2025",
-      "badge": "done",
-      "summary": "real-time competitive coding platform with head-to-head battles, dynamic ELO matchmaking, and sandboxed VM2 code execution.",
-      "description": "A full-stack competitive coding platform where developers battle head-to-head solving algorithmic challenges in real time with live opponent progress tracking via WebSocket and VM2 isolation.",
+      "slug": "interntrack",
+      "title": "InternTrack",
+      "subtitle": "Centralized 4D Training & Placement Management Portal",
+      "date": "january, 2026",
+      "badge": "live in prod",
+      "previewImage": "/images/projects/interntrack-preview.png",
+      "summary": "4-dimensional centralized placement platform with cryptographic SHA-256 tamper-evident verification, connecting students, mentors, recruiters, and T&P cells.",
+      "description": "InternTrack is a centralized institutional placement ecosystem engineered for G H Raisoni College of Engineering & Management (GHRCEM). It orchestrates a 4-dimensional hierarchy connecting students, hiring partners, faculty mentors, and administrators with cryptographic document validation.",
       "meta": [
         {
-          "term": "type",
-          "desc": "real-time competitive coding arena"
+          "term": "live url",
+          "desc": "internship-placement-portal-steel.vercel.app"
         },
         {
-          "term": "for",
-          "desc": "developers & competitive programmers"
+          "term": "architecture",
+          "desc": "4-way role-based access (Candidates, Recruiters, Faculty, T&P Admin)"
+        },
+        {
+          "term": "security",
+          "desc": "Cryptographic SHA-256 digital stamps & public QR verifier"
         },
         {
           "term": "stack",
-          "desc": "Node.js, Express, React, MongoDB, Socket.io, Monaco Editor, VM2, JWT"
+          "desc": "Next.js, React, Tailwind CSS, Lucide Icons, Prisma, PostgreSQL"
         }
       ],
       "features": [
-        "WebSocket-based matchmaking engine with dynamic ELO rating (dynamic K-factor) pairing players in under 2 seconds",
-        "Sub-200ms bi-directional state synchronization with live opponent progress and battle arena",
-        "Sandboxed server-side JavaScript code execution using VM2 with 5-second timeout and automated test runner",
-        "12+ RESTful endpoints with JWT auth, bcrypt hashing, paginated leaderboards, and match replay"
+        "4-dimensional architecture connecting Students, Hiring Partners, Faculty Mentors, and T&P Cell Admins",
+        "Cryptographic SHA-256 digital stamping and public QR code verifier for certificates, offer letters, and PPOs",
+        "End-to-end recruitment drive management with criteria filters, interview tracking, and weekly logbooks",
+        "Automated institutional compliance reports and real-time placement analytics dashboards"
       ],
       "links": [
+        {
+          "label": "visit live",
+          "url": "https://internship-placement-portal-steel.vercel.app"
+        },
         {
           "label": "view source",
           "url": "https://github.com/23f3000434"
         }
       ]
+    }
+  ],
+  "hobbies": {
+    "books": [
+      {
+        "id": "crime-and-punishment",
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "year": "1866",
+        "coverImage": "/images/books/crime-and-punishment.jpg",
+        "status": "still reading this...",
+        "thought": "Raskolnikov trying to justify his actions with pure intellect is so disturbingly real—we all rationalize bad decisions when our ego takes over. Watching his arrogant theory fall apart the second human guilt strikes is chilling. Still reading this, but it's already one of the most gripping things I've ever picked up."
+      },
+      {
+        "id": "meditations",
+        "title": "Meditations",
+        "author": "Marcus Aurelius",
+        "year": "180 AD",
+        "coverImage": "/images/books/meditations.jpg",
+        "status": "daily guide",
+        "thought": "Crazy to think this was never meant to be published—it's just a Roman emperor at 2 AM writing to himself in a tent, trying not to let power or irritating people get to his head. Whenever life gets overwhelming, this brings me right back to what actually matters."
+      },
+      {
+        "id": "courage-to-be-disliked",
+        "title": "The Courage to Be Disliked",
+        "author": "Ichiro Kishimi & Fumitake Koga",
+        "year": "2013",
+        "coverImage": "/images/books/courage-to-be-disliked.jpg",
+        "status": "read",
+        "thought": "This completely flipped how I think about people-pleasing. We waste insane amounts of energy stressing over what other people think, when their judgment is completely their business, not ours. Having the spine to be disliked for who you genuinely are feels surprisingly freeing."
+      },
+      {
+        "id": "sherlock-holmes",
+        "title": "The Adventures of Sherlock Holmes",
+        "author": "Sir Arthur Conan Doyle",
+        "year": "1892",
+        "coverImage": "/images/books/sherlock-holmes.jpg",
+        "status": "read",
+        "thought": "What I love about Holmes isn't that he has superpowers—it's that he actually pays attention. While everyone else just glances and moves on, he notices the tiny scuff on a cuff or splash of mud. It genuinely makes you want to observe life around you with far more curiosity."
+      },
+      {
+        "id": "revolution-2020",
+        "title": "Revolution 2020",
+        "author": "Chetan Bhagat",
+        "year": "2011",
+        "coverImage": "/images/books/revolution-2020.jpg",
+        "status": "read",
+        "thought": "A fast, brutally relatable look at the Indian college and coaching rat race. Gopal and Raghav show the dilemma we all debate: do you play by the corrupt rules to get rich, or stay idealistic and struggle? It hits uncomfortably close to home on ambition and compromise."
+      }
+    ],
+    "sketches": [
+      {
+        "id": "sketch-1",
+        "title": "Graphite Portrait Study I",
+        "src": "/images/drawings/sketch-1.png",
+        "medium": "Graphite pencil on textured sketchbook paper"
+      },
+      {
+        "id": "sketch-2",
+        "title": "Graphite Portrait Study II",
+        "src": "/images/drawings/sketch-2.png",
+        "medium": "Pencil shading & facial contouring"
+      }
+    ]
+  },
+  "memes": [
+    {
+      "id": "meme-1",
+      "title": "Terminal reality",
+      "src": "/images/memes/meme-1.png"
     },
     {
-      "slug": "voxguard",
-      "title": "VoxGuard (AI Voice Forensics)",
-      "date": "february, 2026",
-      "badge": "done",
-      "summary": "multilingual AI voice clone detection achieving 94%+ accuracy across 5 languages. National Finalist (Top 20 of 40,000) at HCL GUVI Buildathon.",
-      "description": "An end-to-end ML audio forensics pipeline built to classify synthetic vs. human speech across 5 languages using audio mel-spectrograms, MFCC features, and a custom PyTorch CNN architecture.",
-      "meta": [
-        {
-          "term": "type",
-          "desc": "audio ML forensics pipeline"
-        },
-        {
-          "term": "award",
-          "desc": "National Finalist (Top 20 of 40,000) - HCL GUVI AI Impact Buildathon"
-        },
-        {
-          "term": "stack",
-          "desc": "PyTorch, librosa, Python, FastAPI, Docker"
-        },
-        {
-          "term": "accuracy",
-          "desc": "94%+ across 5 languages"
-        }
-      ],
-      "features": [
-        "94%+ classification accuracy on AI-generated vs real voice detection across 5 distinct languages",
-        "High-resolution mel-spectrogram and MFCC acoustic feature extraction using librosa",
-        "Custom PyTorch convolutional neural network optimized for subtle spectral artifacts and phase anomalies",
-        "FastAPI microservice containerized with Docker for sub-300ms audio chunk analysis"
-      ],
-      "links": [
-        {
-          "label": "view source",
-          "url": "https://github.com/23f3000434"
-        }
-      ]
+      "id": "meme-2",
+      "title": "State management dilemma",
+      "src": "/images/memes/meme-2.png"
     },
     {
-      "slug": "cybersentinel",
-      "title": "CyberSentinel (IndiaNext 2026)",
-      "date": "march, 2026",
-      "badge": "done",
-      "summary": "AI cybersecurity platform integrating 6 threat detection modules with explainable risk scoring. Top 30 finalist out of 300+ teams.",
-      "description": "An incident response and threat detection platform built during IndiaNext Hackathon 2026 at K.E.S. Shroff College, Mumbai, achieving Top 30 out of 300+ competing teams.",
-      "meta": [
-        {
-          "term": "type",
-          "desc": "AI cybersecurity platform"
-        },
-        {
-          "term": "award",
-          "desc": "Top 30 Finalist (300+ Teams) - IndiaNext Hackathon 2026"
-        },
-        {
-          "term": "stack",
-          "desc": "Python, React, FastAPI, Explainable AI, SQLite"
-        }
-      ],
-      "features": [
-        "Integrated 6 threat detection modules with real-time risk scoring and explainable attribution",
-        "Automated incident response playbooks and actionable remediation steps for detected threats",
-        "Lightweight SQLite persistence with real-time event alerts and telemetry dashboard"
-      ],
-      "links": [
-        {
-          "label": "view source",
-          "url": "https://github.com/23f3000434"
-        }
-      ]
+      "id": "meme-3",
+      "title": "Production deployment mood",
+      "src": "/images/memes/meme-3.png"
     },
     {
-      "slug": "realtime-engine",
-      "title": "Real-Time Event & Threat Streaming Engine",
-      "date": "november, 2025",
-      "badge": "done",
-      "summary": "sub-200ms WebSocket streaming architecture and JWT authentication pipeline built for client production deployments.",
-      "description": "A production-grade real-time backend architecture designed for low-latency state synchronization, rate limiting, and encrypted sessions across distributed clients.",
-      "meta": [
-        {
-          "term": "type",
-          "desc": "freelance client infrastructure"
-        },
-        {
-          "term": "for",
-          "desc": "real-time client applications"
-        },
-        {
-          "term": "stack",
-          "desc": "Node.js, Express, Socket.io, Redis, Docker, PostgreSQL"
-        }
-      ],
-      "features": [
-        "Sub-200ms WebSocket bi-directional state synchronization under heavy concurrent traffic",
-        "RESTful API design with JWT auth, bcrypt password hashing, and express-rate-limit middleware",
-        "Role-based access control (RBAC) serving 10+ secure endpoints per application",
-        "Dockerized deployment with Redis caching and PostgreSQL/MongoDB backends"
-      ],
-      "links": [
-        {
-          "label": "view source",
-          "url": "https://github.com/23f3000434"
-        }
-      ]
+      "id": "meme-4",
+      "title": "Compiler vs human",
+      "src": "/images/memes/meme-4.png"
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "connecting-the-dots-steve-jobs",
+      "title": "Connecting the Dots: What Steve Jobs' Past Life Taught Me About Grit, Taste, and Craft",
+      "date": "16 September 2026",
+      "dateIso": "2026-09-16",
+      "category": "craft & inspiration",
+      "summary": "Steve Jobs on dropping out, sleeping on dorm floors, returning Coke bottles, calligraphy, getting fired from Apple, and trusting that the dots connect. What his lectures taught me about relentless craftsmanship.",
+      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><p class=\"mb-8 text-xs text-zinc-500\">craft & inspiration · by <a class=\"text-zinc-600 transition-colors hover:text-zinc-950 font-medium\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> · <time datetime=\"2026-09-16\">16 September 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-relaxed\">In 2005, standing before graduates on a warm morning at Stanford, Steve Jobs told three simple stories from his life. No corporate buzzwords, no management formulas. Just three stories about birth, love, failure, and death.</p><p class=\"text-text-secondary leading-relaxed\">Whenever I feel overwhelmed by the sheer volume of technologies to learn or the steep climb of building something meaningful from scratch, I return to that lecture. It is not a story about superficial Silicon Valley hustle; it is a masterclass in trusting the long game, developing uncompromising taste, and possessing the grit to survive public defeat.</p><h2 class=\"text-heading text-xl font-semibold pb-2 mt-8 mb-3 text-zinc-900\">1. The Calligraphy Class and the Unseen Dot</h2><p class=\"text-text-secondary leading-relaxed\">When Jobs dropped out of Reed College after six months, he didn't have a dorm room. He slept on the floor in friends' rooms, returned Coke bottles for 5¢ deposits to buy food, and walked seven miles across town every Sunday night to get one good meal a week at the Hare Krishna temple.</p><p class=\"text-text-secondary leading-relaxed\">Because he was no longer bound by required courses, he decided to drop in on a calligraphy class. He learned about serif and sans-serif typefaces, about varying the amount of space between different letter combinations, and about what makes great typography truly great. It seemed to have zero practical application in his life.</p><p class=\"text-text-secondary leading-relaxed\">Ten years later, when they were designing the first Macintosh computer, it all came back. The Mac became the very first computer with beautiful typography. If he had never dropped in on that single course in college, personal computers might never have had the wonderful typography they do.</p><blockquote class=\"border-l-2 border-zinc-900 pl-4 my-6 italic text-zinc-800 text-sm\">'You can't connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something — your gut, destiny, life, karma, whatever.'</blockquote><p class=\"text-text-secondary leading-relaxed\">As a young engineer, you often wonder whether the countless hours spent obsessing over a CSS sub-pixel alignment, studying classical music ragas, or reading century-old Russian novels 'matter' for your career. Jobs' lesson is crystal clear: curiosity without cynical utilitarianism is where your unique taste is forged. The dots connect only in retrospect.</p><h2 class=\"text-heading text-xl font-semibold pb-2 mt-8 mb-3 text-zinc-900\">2. The Gift of Getting Fired from Your Own Creation</h2><p class=\"text-text-secondary leading-relaxed\">At age thirty, Jobs was fired from Apple—the company he had built from a garage into a two-billion-dollar enterprise with over 4,000 employees. He was publicly humiliated, stripped of his life's work, and thought about fleeing the valley.</p><p class=\"text-text-secondary leading-relaxed\">And then something remarkable happened. He realized he still loved what he did. The heaviness of being successful was replaced by the lightness of being a beginner again, less sure about everything. It freed him to enter one of the most creatively fertile periods of his life, founding NeXT and Pixar.</p><p class=\"text-text-secondary leading-relaxed\">True grit isn't avoiding failure; it is discovering that failure cannot destroy your underlying love for the craft. If your identity is tied to status or accolades, a single setback shatters you. But if your joy is tied to the act of building—to opening a blank editor and creating something that didn't exist an hour ago—you are essentially invincible.</p><h2 class=\"text-heading text-xl font-semibold pb-2 mt-8 mb-3 text-zinc-900\">3. Remembering You Are Going to Die</h2><p class=\"text-text-secondary leading-relaxed\">'Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose. You are already naked. There is no reason not to follow your heart.'</p><p class=\"text-text-secondary leading-relaxed\">Almost everything—all external expectations, all pride, all fear of embarrassment or failure—falls away in the face of mortality, leaving only what is truly important. There is no time to live someone else's life. Don't be trapped by dogma—which is living with the results of other people's thinking.</p><p class=\"text-text-secondary leading-relaxed\">Sweat the details. Care about the back of the fence. Refuse to ship sloppy work. Stay hungry, stay foolish.</p></div></article>"
+    },
+    {
+      "slug": "boredom-brings-innovation",
+      "title": "Boredom Brings Innovation: Why Unstructured Time Breeds Breakthrough Engineering",
+      "date": "14 September 2026",
+      "dateIso": "2026-09-14",
+      "category": "creative cognition",
+      "summary": "In a world obsessed with 24/7 hyper-productivity, intentional boredom is the forgotten catalyst for deep creative engineering and original system architecture.",
+      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><p class=\"mb-8 text-xs text-zinc-500\">creative cognition · by <a class=\"text-zinc-600 transition-colors hover:text-zinc-950 font-medium\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> · <time datetime=\"2026-09-14\">14 September 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-relaxed\">If you ask modern developers how they spend their downtime, the answer is almost uniformly consumption: scrolling feeds, refreshing message boards, or listening to podcasts at 1.75x speed. We have pathologized empty space. Any pocket of five minutes where our hands are idle is immediately filled with a screen.</p><p class=\"text-text-secondary leading-relaxed\">Yet, when you trace the lineage of genuine technical breakthroughs—the architecture of Git, the creation of UNIX, the inception of declarative UI paradigms—they almost never occurred during manic context-switching. They occurred when an engineer had the quiet luxury of being thoroughly, genuinely bored.</p><h2 class=\"text-heading text-xl font-semibold pb-2 mt-8 mb-3 text-zinc-900\">1. The Default Mode Network</h2><p class=\"text-text-secondary leading-relaxed\">In neuroscience, the brain operates in two broad modes: the Central Executive Network (engaged during focused, task-driven work) and the Default Mode Network (which lights up when you are daydreaming, swimming laps, or simply staring out the window).</p><p class=\"text-text-secondary leading-relaxed\">The Executive Network executes known patterns. But the Default Mode Network is where associative thinking lives. It connects memories, disparate concepts, and subconscious patterns. When you deny yourself boredom, you starve your capacity to synthesize entirely new paradigms.</p><h2 class=\"text-heading text-xl font-semibold pb-2 mt-8 mb-3 text-zinc-900\">2. Protecting Your Unstructured Hours</h2><p class=\"text-text-secondary leading-relaxed\">Treat unstructured time not as wasted opportunity, but as cognitive maintenance. Allow yourself the space to be bored. The best line of code is often the one you realize you don't need—and that clarity only arrives when the noise quiets down.</p></div></article>"
+    },
+    {
+      "slug": "micro-interactions-at-60fps",
+      "title": "The Physics of 60 FPS: Crafting Frontend Micro-Interactions That Feel Organic",
+      "date": "24 August 2026",
+      "dateIso": "2026-08-24",
+      "category": "frontend engineering",
+      "summary": "Users register UI lag before they consciously perceive it. Here is how to engineer buttery smooth micro-interactions using composite-only properties and spring physics.",
+      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><p class=\"mb-8 text-xs text-zinc-500\">frontend engineering · by <a class=\"text-zinc-600 transition-colors hover:text-zinc-950 font-medium\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> · <time datetime=\"2026-08-24\">24 August 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-relaxed\">The difference between software that feels like a webpage and software that feels like a polished physical tool is often less than 16 milliseconds. When an element responds instantly to touch or cursor trajectory with spring inertia, our brain categorizes it as a tangible object rather than an ephemeral digital representation.</p><p class=\"text-text-secondary leading-relaxed\">To maintain 60 FPS, all high-frequency animations must be restricted strictly to composite-only properties: <code>transform</code> and <code>opacity</code>. These can be offloaded directly to the GPU raster thread, bypassing main thread layout freezes entirely.</p></div></article>"
+    },
+    {
+      "slug": "zero-runtime-css-architecture",
+      "title": "The Modern CSS Renaissance: Native Primitives Over Heavy JS Wrappers",
+      "date": "18 August 2026",
+      "dateIso": "2026-08-18",
+      "category": "frontend architecture",
+      "summary": "How modern CSS primitives like :has(), container queries, and subgrid render hundreds of lines of brittle JavaScript state and runtime styling libraries obsolete.",
+      "contentHtml": "<article class=\"flex h-fit w-full flex-col\"><p class=\"mb-8 text-xs text-zinc-500\">frontend architecture · by <a class=\"text-zinc-600 transition-colors hover:text-zinc-950 font-medium\" href=\"/\" rel=\"author\">Ashitosh Jagtap</a> · <time datetime=\"2026-08-18\">18 August 2026</time></p><div class=\"prose dark:prose-invert max-w-none\"><p class=\"text-text-secondary leading-relaxed\">For nearly a decade, the standard prescription for complex web interfaces was to throw JavaScript at styling problems. While this solved scoping problems in early component architectures, it exacted a heavy toll: massive JavaScript bundle footprints and sluggish scroll performance.</p><p class=\"text-text-secondary leading-relaxed\">By returning to browser native primitives like <code>:has()</code> and container queries, our applications get faster, our bundles shrink, and our architectures become fundamentally more durable.</p></div></article>"
     }
   ]
 };
